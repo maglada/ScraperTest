@@ -12,23 +12,24 @@ namespace ProductScraper
     public class ScraperFactory
     {
         private readonly ScraperConfig _config;
-        private readonly Dictionary<string, Func<ScraperConfig, IProductScraper>> _scraperMap;
+        private readonly Dictionary<string, Func<ScraperConfig, string, IProductScraper>> _scraperMap;
 
         public ScraperFactory(ScraperConfig config = null)
         {
             _config = config ?? new ScraperConfig();
             
             // Map file patterns to scraper types based on document content/category
-            _scraperMap = new Dictionary<string, Func<ScraperConfig, IProductScraper>>
+            // The string parameter is the category name that will be assigned to products
+            _scraperMap = new Dictionary<string, Func<ScraperConfig, string, IProductScraper>>(StringComparer.OrdinalIgnoreCase)
             {
-                { "NovusLinks_Seafood", cfg => new ScraperSeafood(cfg) },
-                { "NovusLinks_Alcohol", cfg => new ScraperAlcohol(cfg) },
-                { "NovusLinks_Dairy", cfg => new ScraperDairy(cfg) },
-                { "NovusLinks_Meat", cfg => new ScraperMeat(cfg) },
-                { "NovusLinks_Bakery", cfg => new ScraperBakery(cfg) },
-                { "NovusLinks_Beverages", cfg => new ScraperBeverages(cfg) },
-                { "NovusLinks_Frozen", cfg => new ScraperFrozen(cfg) },
-                { "NovusLinks_Fruits", cfg => new ScraperFruits(cfg) },
+                // Map actual file names (lowercase) to scrapers with proper category names
+                { "NovusLinks_fish", (cfg, cat) => new NovusProductScraper(cfg, cat) },
+                { "NovusLinks_alcohol", (cfg, cat) => new NovusProductScraper(cfg, cat) },
+                { "NovusLinks_eggs", (cfg, cat) => new NovusProductScraper(cfg, cat) },
+                { "NovusLinks_meat", (cfg, cat) => new NovusProductScraper(cfg, cat) },
+                { "NovusLinks_bakery", (cfg, cat) => new NovusProductScraper(cfg, cat) },
+                { "NovusLinks_halfmade", (cfg, cat) => new NovusProductScraper(cfg, cat) },
+                { "NovusLinks_veg_fruit", (cfg, cat) => new NovusProductScraper(cfg, cat) },
                 // Add more mappings here as needed for each category
             };
         }
@@ -36,30 +37,58 @@ namespace ProductScraper
         /// <summary>
         /// Gets the appropriate scraper based on the file name
         /// </summary>
-        /// <param name="fileName">Name of the file (e.g., "NovusLinks_Seafood.txt")</param>
+        /// <param name="fileName">Name of the file (e.g., "NovusLinks_alcohol.txt")</param>
         /// <returns>Instance of the appropriate scraper</returns>
         public IProductScraper GetScraper(string fileName)
         {
             // Extract the base name without extension
             var baseName = Path.GetFileNameWithoutExtension(fileName);
             
-            // Try exact match first
+            // Determine category name from file name
+            string categoryName = DetermineCategoryName(baseName);
+            
+            // Try exact match first (case-insensitive)
             if (_scraperMap.ContainsKey(baseName))
             {
-                return _scraperMap[baseName](_config);
+                return _scraperMap[baseName](_config, categoryName);
             }
 
-            // Try partial match (e.g., "NovusLinks_Seafood_001.txt" -> "NovusLinks_Seafood")
+            // Try partial match (e.g., "NovusLinks_alcohol_001.txt" -> "NovusLinks_alcohol")
             foreach (var kvp in _scraperMap)
             {
                 if (baseName.StartsWith(kvp.Key, StringComparison.OrdinalIgnoreCase))
                 {
-                    return kvp.Value(_config);
+                    return kvp.Value(_config, categoryName);
                 }
             }
 
             // If no specific scraper found, throw exception
             throw new NotSupportedException($"No scraper found for file: {fileName}. Available scrapers: {string.Join(", ", _scraperMap.Keys)}");
+        }
+
+        /// <summary>
+        /// Determines the category name from the file name
+        /// </summary>
+        private string DetermineCategoryName(string baseName)
+        {
+            // Remove "NovusLinks_" prefix and convert to proper category name
+            var categoryPart = baseName.Replace("NovusLinks_", "", StringComparison.OrdinalIgnoreCase);
+            
+            // Map file name parts to friendly category names
+            var categoryMap = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+            {
+                { "fish", "Fish & Seafood" },
+                { "alcohol", "Alcohol & Beverages 18+" },
+                { "eggs", "Dairy & Eggs" },
+                { "meat", "Meat & Poultry" },
+                { "bakery", "Bakery" },
+                { "halfmade", "Semi-Finished Products" },
+                { "veg_fruit", "Fruits & Vegetables" }
+            };
+
+            return categoryMap.TryGetValue(categoryPart, out var friendlyName) 
+                ? friendlyName 
+                : categoryPart;
         }
 
         /// <summary>
@@ -145,7 +174,7 @@ namespace ProductScraper
         /// </summary>
         /// <param name="filePattern">The file pattern to match (e.g., "NovusLinks_Custom")</param>
         /// <param name="scraperFactory">Factory function that creates the scraper</param>
-        public void RegisterScraper(string filePattern, Func<ScraperConfig, IProductScraper> scraperFactory)
+        public void RegisterScraper(string filePattern, Func<ScraperConfig, string, IProductScraper> scraperFactory)
         {
             _scraperMap[filePattern] = scraperFactory;
         }

@@ -372,3 +372,4 @@ C:\Users\maggy\Documents\code\cs\tests-for-proj\Scrapertest\bin\Debug\net9.0\.pl
 C:\Users\maggy\Documents\code\cs\tests-for-proj\Scrapertest\bin\Debug\net9.0\playwright.ps1
 C:\Users\maggy\Documents\code\cs\tests-for-proj\Scrapertest\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\maggy\Documents\code\cs\tests-for-proj\Scrapertest\bin\Debug\net9.0\Microsoft.Playwright.dll
+C:\Users\maggy\Documents\code\cs\tests-for-proj\Scrapertest\obj\Debug\net9.0\Scrapertest.sourcelink.json

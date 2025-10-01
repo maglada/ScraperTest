@@ -11,10 +11,12 @@ namespace ProductScraper
     public class NovusProductScraper : IProductScraper
     {
         private readonly ScraperConfig _config;
+        private readonly string _category;
 
-        public NovusProductScraper(ScraperConfig config = null)
+        public NovusProductScraper(ScraperConfig config = null, string category = null)
         {
             _config = config ?? new ScraperConfig();
+            _category = category ?? "Unknown";
         }
 
         /// <summary>
@@ -152,6 +154,9 @@ namespace ProductScraper
                     var productKey = CreateProductKey(extractedProduct.Name, extractedProduct.Price.ToString());
                     if (processedProducts.Add(productKey))
                     {
+                        // Assign category to product
+                        extractedProduct.Category = _category;
+                        
                         products.Add(extractedProduct);
                         
                         if (_config.EnableLogging)
@@ -421,4 +426,4 @@ namespace ProductScraper
         public bool SaveDebugScreenshots { get; set; } = false;
         public bool SaveErrorScreenshots { get; set; } = true;
     }
-}   
+}
