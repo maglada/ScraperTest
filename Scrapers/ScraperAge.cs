@@ -8,13 +8,15 @@ using System.Linq;
 
 namespace ProductScraper
 {
-    public class NovusProductScraperAlc
+    public class NovusProductScraperAlc : IProductScraper
     {
         private readonly ScraperConfig _config;
+        private readonly string _category;
 
-        public NovusProductScraperAlc(ScraperConfig config = null)
+        public NovusProductScraperAlc(ScraperConfig config = null, string category = null)
         {
             _config = config ?? new ScraperConfig();
+            _category = category ?? "Unknown";
         }
 
         /// <summary>

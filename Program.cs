@@ -25,8 +25,8 @@ class Program
             var factory = new ScraperFactory(config);
 
             // Option 1: Process all files automatically
-            Console.WriteLine("=== Processing all NovusLinks files ===");
-            var allResults = await factory.ProcessAllFilesAsync("sites", "NovusLinks_*.txt");
+            Console.WriteLine("=== Processing all link files (Novus, ATB, etc.) ===");
+            var allResults = await factory.ProcessAllFilesAsync("sites", "*Links*.txt");
 
             // Display summary
             Console.WriteLine($"\n=== SCRAPING COMPLETE ===");
@@ -94,8 +94,6 @@ class Program
         var allProducts = results.Values.SelectMany(p => p).ToList();
         SaveProductsToFile(allProducts, Path.Combine(outputDir, "all_products.txt"));
         
-        // Create a CSV file for easy import to Excel
-        SaveProductsToCSV(allProducts, Path.Combine(outputDir, "all_products.csv"));
     }
 
     /// <summary>
@@ -131,49 +129,5 @@ class Program
         }
         
         Console.WriteLine($"Products saved to {filename}");
-    }
-
-    /// <summary>
-    /// Saves products to a CSV file for Excel
-    /// </summary>
-    static void SaveProductsToCSV(System.Collections.Generic.List<Product> products, string filename)
-    {
-        using var writer = new StreamWriter(filename);
-        
-        // Write header
-        writer.WriteLine("Category,Name,Price,Old Price,Discount,Valid Until,Is On Sale");
-        
-        // Write data
-        foreach (var product in products)
-        {
-            var category = EscapeCSV(product.Category ?? "Unknown");
-            var name = EscapeCSV(product.Name);
-            var price = product.Price;
-            var oldPrice = product.OldPrice?.ToString() ?? "";
-            var discount = EscapeCSV(product.Discount ?? "");
-            var validUntil = EscapeCSV(product.ValidUntil ?? "");
-            var isOnSale = product.IsOnSale ? "Yes" : "No";
-            
-            writer.WriteLine($"{category},{name},{price},{oldPrice},{discount},{validUntil},{isOnSale}");
-        }
-        
-        Console.WriteLine($"CSV saved to {filename}");
-    }
-
-    /// <summary>
-    /// Escapes special characters for CSV format
-    /// </summary>
-    static string EscapeCSV(string value)
-    {
-        if (string.IsNullOrEmpty(value))
-            return "";
-            
-        // If contains comma, quote, or newline, wrap in quotes and escape quotes
-        if (value.Contains(",") || value.Contains("\"") || value.Contains("\n"))
-        {
-            return "\"" + value.Replace("\"", "\"\"") + "\"";
-        }
-        
-        return value;
     }
 }

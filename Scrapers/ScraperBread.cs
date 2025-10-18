@@ -8,12 +8,12 @@ using System.Linq;
 
 namespace ProductScraper
 {
-    public class NovusProductScraper : IProductScraper
+    public class ProductScraperBread : IProductScraper
     {
         private readonly ScraperConfig _config;
         private readonly string _category;
 
-        public NovusProductScraper(ScraperConfig config = null, string category = null)
+        public ProductScraperBread(ScraperConfig config = null, string category = null)
         {
             _config = config ?? new ScraperConfig();
             _category = category ?? "Unknown";
@@ -92,8 +92,9 @@ namespace ProductScraper
         private async Task<List<Product>> ScrapeCatalogPageAsync(IPage page, string catalogUrl)
         {
             var products = new List<Product>();
-            
+
             await page.GotoAsync(catalogUrl);
+
             await page.WaitForLoadStateAsync(LoadState.DOMContentLoaded);
 
             // Fetch the full HTML for debugging/inspection
@@ -137,12 +138,22 @@ namespace ProductScraper
                 // Skip very short texts that are unlikely to be valid products
                 if (text.Length < 10) continue;
 
+                if (Regex.IsMatch(text, @"^[\d.,]+\s*₴\s*(від\s*\d+\s*(шт|кг|г|л|мл)|\.\.\.)", RegexOptions.IgnoreCase))
+                {
+                    continue;
+                }
+                
+
+                if (Regex.IsMatch(text, @"^[\d.,]+\s*₴\s*(від\s*\d+\s*шт|\.\.\.)", RegexOptions.IgnoreCase))
+                {
+                    continue;
+                }
                 // DEBUG: Log any text that contains percentage to see what we're missing
                 if (_config.EnableDebugOutput)
                 {
                     if (text.Contains("%"))
                         Console.WriteLine($"DEBUG: Found text with percentage: '{text}'");
-                    
+
                     // DEBUG: Log any text that has multiple ₴ symbols (likely sale items)
                     if (Regex.Matches(text, @"₴").Count > 1)
                         Console.WriteLine($"DEBUG: Found text with multiple prices: '{text}'");
@@ -225,6 +236,29 @@ namespace ProductScraper
                     TryAlternativeSalePatterns(text);
                 }
 
+                var bulkPattern = @"^ОПТ\s*([\d.,]+)\s*₴\s*від\s*\d+\s*шт\s*(?:\.\.\.)?\s*([\d.,]+)\s*₴\s*(.+)";
+                var bulkMatch = Regex.Match(text, bulkPattern);
+
+                if (bulkMatch.Success)
+                {
+                    // --- BULK ITEM ---
+                    var bulkPrice = bulkMatch.Groups[1].Value.Trim();
+                    var retailPrice = bulkMatch.Groups[2].Value.Trim();
+                    var name = CleanProductName(bulkMatch.Groups[3].Value);
+
+                    if (IsValidProduct(retailPrice, name))
+                    {
+                        return new Product
+                        {
+                            Name = name,
+                            Price = ParsePrice(retailPrice),
+                            BulkPrice = ParsePrice(bulkPrice),
+                            IsOnSale = false,
+                            IsBulk = true
+                        };
+                    }
+                }
+
                 // normalPattern: just price + product name (excluding cases with multiple prices/discounts)
                 var normalPattern = @"^([\d.,]+)\s*₴\s*(?![\d.,]+\s*₴|до\s*\d|\d+\.\d+|.*%)(.*?)(?:\s+до\s+\d+\.\d+|\s+\d+\.\d+\s*₴|$)";
                 var normalMatch = Regex.Match(text, normalPattern);
@@ -288,6 +322,14 @@ namespace ProductScraper
                 Console.WriteLine($"Стара ціна: {product.OldPrice}");
                 Console.WriteLine($"Нова ціна: {product.Price}");
                 Console.WriteLine($"Діє до: {product.ValidUntil}");
+                Console.WriteLine($"Назва: {product.Name}");
+                Console.WriteLine("==================");
+            }
+            else if (product.IsBulk)
+            {
+                Console.WriteLine("=== BULK ITEM ===");
+                Console.WriteLine($"Опт ціна: {product.BulkPrice}");
+                Console.WriteLine($"Роздрібна ціна: {product.Price}");
                 Console.WriteLine($"Назва: {product.Name}");
                 Console.WriteLine("==================");
             }
@@ -404,28 +446,5 @@ namespace ProductScraper
             
             return $"{cleanName}_{price}";
         }
-    }
-
-    public class Product
-    {
-        public string Name { get; set; }
-        public decimal Price { get; set; }
-        public decimal? OldPrice { get; set; }
-        public string Discount { get; set; }
-        public string ValidUntil { get; set; }
-        public bool IsOnSale { get; set; }
-        public decimal? BulkPrice { get; set; } = null;
-        public bool IsBulk { get; set; } = false;
-        public string Category { get; set; }
-    }
-
-    public class ScraperConfig
-    {
-        public bool Headless { get; set; } = false;
-        public float SlowMo { get; set; } = 1000;
-        public bool EnableLogging { get; set; } = true;
-        public bool EnableDebugOutput { get; set; } = true;
-        public bool SaveDebugScreenshots { get; set; } = false;
-        public bool SaveErrorScreenshots { get; set; } = true;
     }
 }
