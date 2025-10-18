@@ -1,0 +1,95 @@
+{
+  "cookies": [
+    {
+      "name": "birthday",
+      "value": "true",
+      "domain": ".www.atbmarket.com",
+      "path": "/",
+      "expires": 1760636335.77,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "nMT1FxgXo7gG98fEKx0S0tnZ8TZeqtWgTIHjGXfWXQU-1760786090-1.0.1.1-RSjyGOwe8Gtni2NLTw9V0S7By0kNgxK1qfi7sZnqYNc2Cbn29ALnC6HpjTNikh4r72x0Gdi6cJ7wLC.PFOAPHDYrDvmIxyZrRruj0_ToE6Q",
+      "domain": ".atbmarket.com",
+      "path": "/",
+      "expires": 1760787890.246,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_csrf-shop",
+      "value": "b33b81013d83371ab747540a8d0cb24d607cb01e87ea7add55be3f3fda4e6c9fa%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-shop%22%3Bi%3A1%3Bs%3A32%3A%22u-6zP2I4ZwlbDR2qw6bI21bj-jpe2mZd%22%3B%7D",
+      "domain": "www.atbmarket.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ms",
+      "value": "4a4516d1-ddbe-4dc7-8abd-b0e0ded3953c",
+      "domain": "www.atbmarket.com",
+      "path": "/",
+      "expires": 1792516429.283,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_sessionfront",
+      "value": "veqi0nf4o919hjj8ra5h0qjmni",
+      "domain": ".atbmarket.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "banner",
+      "value": "1301%2C1491",
+      "domain": ".www.atbmarket.com",
+      "path": "/",
+      "expires": 1763297116.872,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lang",
+      "value": "uk",
+      "domain": ".www.atbmarket.com",
+      "path": "/",
+      "expires": 1763297107.062,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LAST_CITY_SEGMENT_NAME",
+      "value": "9d3b0477b7995af0053a6548709f373f41f5d3a89af8fc24ef8d8f51562924bba%3A2%3A%7Bi%3A0%3Bs%3A22%3A%22LAST_CITY_SEGMENT_NAME%22%3Bi%3A1%3BN%3B%7D",
+      "domain": "www.atbmarket.com",
+      "path": "/",
+      "expires": 1760789688.611,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sc",
+      "value": "9237A207-C0F5-3EC5-F5C6-29DCA37D3EB4",
+      "domain": ".atbmarket.com",
+      "path": "/",
+      "expires": 1792516429.301,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

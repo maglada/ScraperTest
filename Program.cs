@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ProductScraper;
 
+
 class Program
 {
     static async Task Main(string[] args)
@@ -13,12 +14,13 @@ class Program
             // Configure scraper behavior
             var config = new ScraperConfig
             {
-                Headless = true,
+                Headless = false,
                 SlowMo = 1000,
                 EnableLogging = true,
                 EnableDebugOutput = false,
                 SaveDebugScreenshots = true,
-                SaveErrorScreenshots = true
+                SaveErrorScreenshots = true,
+                HumanSolveCaptcha = true
             };
 
             // Create factory with configuration

@@ -64,7 +64,7 @@ namespace ProductScraper
             });
 
             Console.WriteLine($"Launching Chromium headless? {_config.Headless}");
-            var cookiePath = Path.Combine(AppContext.BaseDirectory, "Scrapers", "cookies.json");
+            var cookiePath = Path.Combine(AppContext.BaseDirectory, "Scrapers", "cookies_playwright.json");
             var context = await browser.NewContextAsync(new BrowserNewContextOptions
             {
                 StorageStatePath = cookiePath,
@@ -228,7 +228,7 @@ Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});");
 
                     if (els.Length == 0)
                     {
-                        if (_config.EnableLogging) Console.WriteLine($"ATB: no product elements found on {url} (body length { (await page.ContentAsync()).Length })");
+                        if (_config.EnableLogging) Console.WriteLine($"ATB: no product elements found on {url} (body length {(await page.ContentAsync()).Length})");
                     }
                     else
                     {
@@ -248,6 +248,16 @@ Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});");
                             catch { /* ignore element-level errors */ }
                         }
                     }
+                    // After successfully scraping products from a page
+                    if (els.Length > 0 && products.Count > 0)
+                    {
+                        // Save cookies for next time
+                        await context.StorageStateAsync(new BrowserContextStorageStateOptions 
+                        { 
+                            Path = cookiePath 
+                        });
+                        if (_config.EnableLogging) Console.WriteLine("✓ Saved fresh cookies");
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -259,6 +269,8 @@ Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});");
                         try { await page.ScreenshotAsync(new PageScreenshotOptions { Path = path, FullPage = true }); Console.WriteLine($"Saved screenshot: {path}"); } catch { }
                     }
                 }
+                if (_config.EnableLogging) Console.WriteLine($"Scraped {products.Count} products so far. Waiting 3 seconds before next page...");
+                await Task.Delay(3000); // Wait 3 seconds between pages
             }
 
             await context.CloseAsync();

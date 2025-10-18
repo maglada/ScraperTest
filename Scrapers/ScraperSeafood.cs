@@ -427,5 +427,6 @@ namespace ProductScraper
         public bool EnableDebugOutput { get; set; } = true;
         public bool SaveDebugScreenshots { get; set; } = false;
         public bool SaveErrorScreenshots { get; set; } = true;
+        public bool HumanSolveCaptcha { get; set; } = false;
     }
 }
