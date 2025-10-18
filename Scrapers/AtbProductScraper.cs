@@ -57,7 +57,7 @@ namespace ProductScraper
                 SlowMo = _config.SlowMo,
                 Args = new[]
                 {
-                    //"--disable-blink-features=AutomationControlled",
+                    "--disable-blink-features=AutomationControlled",
                     "--no-sandbox",
                     "--disable-setuid-sandbox"
                 }
