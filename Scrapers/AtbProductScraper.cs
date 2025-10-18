@@ -48,36 +48,45 @@ namespace ProductScraper
         {
             var products = new List<Product>();
 
-            var userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36";
-
             using var playwright = await Playwright.CreateAsync();
-            await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
+            
+            // Use Firefox instead of Chromium - harder to detect
+            await using var browser = await playwright.Firefox.LaunchAsync(new BrowserTypeLaunchOptions
             {
-                Headless = false,
-                SlowMo = _config.SlowMo,
-                Args = new[]
-                {
-                    "--disable-blink-features=AutomationControlled",
-                    "--no-sandbox",
-                    "--disable-setuid-sandbox"
-                }
+                Headless = _config.Headless,
+                SlowMo = _config.SlowMo
             });
 
-            Console.WriteLine($"Launching Chromium headless? {_config.Headless}");
-            var cookiePath = Path.Combine(AppContext.BaseDirectory, "Scrapers", "cookies_playwright.json");
+            Console.WriteLine($"Launching Firefox headless? {_config.Headless}");
+            
+            var cookiePath = "Scrapers/cookies_playwright.json";
+            Console.WriteLine($"Looking for cookies at: {Path.GetFullPath(cookiePath)}");
+            
+            // Check if cookies file exists
+            var cookiesExist = File.Exists(cookiePath);
+            Console.WriteLine($"Cookies file exists: {cookiesExist}");
+
             var context = await browser.NewContextAsync(new BrowserNewContextOptions
             {
-                StorageStatePath = cookiePath,
+                StorageStatePath = cookiesExist ? cookiePath : null,
                 IgnoreHTTPSErrors = true,
                 JavaScriptEnabled = true,
-                UserAgent = userAgent,
+                UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
                 Locale = "uk-UA",
                 ViewportSize = new ViewportSize { Width = 1920, Height = 1080 },
                 ExtraHTTPHeaders = new Dictionary<string, string>
                 {
                     ["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
                     ["Accept-Language"] = "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
-                    ["Referer"] = "https://www.atbmarket.com/"
+                    ["Accept-Encoding"] = "gzip, deflate, br",
+                    ["DNT"] = "1",
+                    ["Connection"] = "keep-alive",
+                    ["Upgrade-Insecure-Requests"] = "1",
+                    ["Sec-Fetch-Dest"] = "document",
+                    ["Sec-Fetch-Mode"] = "navigate",
+                    ["Sec-Fetch-Site"] = "none",
+                    ["Sec-Fetch-User"] = "?1",
+                    ["Cache-Control"] = "max-age=0"
                 }
             });
 
@@ -89,13 +98,47 @@ namespace ProductScraper
                 page.PageError += (_, err) => Console.WriteLine($"PAGE ERROR: {err}");
             }
 
-            // Stealth: minimize detectable automation signals
-            await page.AddInitScriptAsync(@"Object.defineProperty(navigator, 'webdriver', {get: () => false});
-window.chrome = window.chrome || { runtime: {} };
-Object.defineProperty(navigator, 'languages', {get: () => ['uk-UA','uk','en-US','en']});
-Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});");
+            // More aggressive stealth
+            await page.AddInitScriptAsync(@"
+                // Remove webdriver property
+                Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+                
+                // Add chrome object for Firefox
+                window.chrome = { runtime: {} };
+                
+                // Override permissions
+                const originalQuery = window.navigator.permissions.query;
+                window.navigator.permissions.query = (parameters) => (
+                    parameters.name === 'notifications' ?
+                        Promise.resolve({ state: Notification.permission }) :
+                        originalQuery(parameters)
+                );
+                
+                // Add realistic plugins
+                Object.defineProperty(navigator, 'plugins', {
+                    get: () => [
+                        { name: 'Chrome PDF Plugin', filename: 'internal-pdf-viewer', description: 'Portable Document Format' },
+                        { name: 'Chrome PDF Viewer', filename: 'mhjfbmdgcfjbbpaeojofohoefgiehjai', description: '' },
+                        { name: 'Native Client', filename: 'internal-nacl-plugin', description: '' }
+                    ]
+                });
+                
+                // Languages
+                Object.defineProperty(navigator, 'languages', {
+                    get: () => ['uk-UA', 'uk', 'en-US', 'en']
+                });
+                
+                // Platform
+                Object.defineProperty(navigator, 'platform', {
+                    get: () => 'Win32'
+                });
+                
+                // Vendor
+                Object.defineProperty(navigator, 'vendor', {
+                    get: () => 'Google Inc.'
+                });
+            ");
 
-            // selectors to try (extend when you know ATB markup variants)
             var selectors = new[]
             {
                 ".product-tile[data-testid*='product']",
@@ -114,77 +157,77 @@ Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});");
                 {
                     if (_config.EnableLogging) Console.WriteLine($"ATB: navigating to {url}");
 
-                    page.SetDefaultNavigationTimeout(45000);
-                    page.Response += (_, response) =>
-                    {
-                        if (response.Status == 403)
-                        {
-                            Console.WriteLine($"ATB: access denied(403) on {url}.");
-                        }
-                    };
+                    // Add random delay before each request (more human-like)
+                    var randomDelay = new Random().Next(2000, 5000);
+                    await Task.Delay(randomDelay);
+
+                    page.SetDefaultNavigationTimeout(60000);
+                    
                     var response = await page.GotoAsync(url, new PageGotoOptions
                     {
-                        WaitUntil = WaitUntilState.DOMContentLoaded,
-                        Timeout = 45000
+                        WaitUntil = WaitUntilState.Load, // Wait for full load instead of just DOM
+                        Timeout = 60000
                     });
+                    
                     Console.WriteLine($"Response status: {response?.Status}");
 
-                    var html = await page.ContentAsync();
-                    File.WriteAllText("cf_dump.html", html);
-                    // detect Cloudflare / Turnstile / general captcha frames or 403
+                    // Wait a bit for any lazy-loaded content
+                    await Task.Delay(3000);
+
+                    // Check for captcha
                     var hasCaptchaFrame = await page.QuerySelectorAsync("iframe[src*='turnstile'], iframe[src*='challenges.cloudflare'], [id*='cf-turnstile'], [class*='captcha']") != null;
+                    
                     if ((response != null && response.Status == 403) || hasCaptchaFrame)
                     {
                         Console.WriteLine($"ATB: captcha/challenge detected on {url} (status {response?.Status}).");
+                        
+                        // Save HTML for inspection
+                        var html = await page.ContentAsync();
+                        File.WriteAllText($"blocked_page_{DateTime.UtcNow:yyyyMMddHHmmss}.html", html);
+                        Console.WriteLine($"Saved blocked page HTML for inspection");
 
+                        if (_config.SaveErrorScreenshots)
+                        {
+                            Directory.CreateDirectory("output");
+                            var path = Path.Combine("output", $"atb_blocked_{DateTime.UtcNow:yyyyMMdd_HHmmss}.png");
+                            await page.ScreenshotAsync(new PageScreenshotOptions { Path = path, FullPage = true });
+                            Console.WriteLine($"Saved screenshot: {path}");
+                        }
+                        
+                        // If manual solving is enabled, wait for user
                         if (GetConfigAllowsHumanSolve(_config))
                         {
-                            Console.WriteLine("Please solve the challenge in the opened browser window, then press Enter to continue...");
-                            if (_config.Headless)
-                                Console.WriteLine("Note: set Headless = false in ScraperConfig to see the browser UI.");
-
-                            var solved = false;
-                            var start = DateTime.UtcNow;
-                            while (!solved && DateTime.UtcNow - start < TimeSpan.FromMinutes(5))
+                            Console.WriteLine("\n===========================================");
+                            Console.WriteLine("CAPTCHA DETECTED - MANUAL INTERVENTION NEEDED");
+                            Console.WriteLine("===========================================");
+                            Console.WriteLine("The browser should be visible (set Headless=false)");
+                            Console.WriteLine("Please solve the CAPTCHA in the browser, then press Enter to continue...");
+                            Console.ReadLine();
+                            
+                            // Check if we're past the captcha
+                            var stillBlocked = await page.QuerySelectorAsync("iframe[src*='turnstile'], iframe[src*='challenges.cloudflare']");
+                            if (stillBlocked == null)
                             {
-                                await Task.Delay(1500);
-                                var still = await page.QuerySelectorAsync("iframe[src*='turnstile'], iframe[src*='challenges.cloudflare'], [id*='cf-turnstile'], [class*='captcha']");
-                                if (still == null)
-                                {
-                                    solved = true;
-                                    break;
-                                }
-
-                                if (Console.KeyAvailable)
-                                {
-                                    var key = Console.ReadKey(intercept: true);
-                                    if (key.Key == ConsoleKey.Enter)
-                                    {
-                                        solved = true;
-                                        break;
-                                    }
-                                }
+                                Console.WriteLine("✓ CAPTCHA appears to be solved! Continuing...");
+                                
+                                // Save cookies after successful solve
+                                await context.StorageStateAsync(new BrowserContextStorageStateOptions { Path = cookiePath });
+                                Console.WriteLine($"✓ Saved fresh cookies to {cookiePath}");
                             }
-
-                            if (!solved)
-                                Console.WriteLine("Timed out waiting for manual CAPTCHA solve; continuing to next URL.");
                             else
-                                Console.WriteLine("Continuing after manual solve.");
+                            {
+                                Console.WriteLine("⚠ CAPTCHA still present. Skipping this URL.");
+                                continue;
+                            }
                         }
                         else
                         {
-                            if (_config.SaveErrorScreenshots)
-                            {
-                                Directory.CreateDirectory("output");
-                                var path = Path.Combine("output", $"atb_403_or_captcha_{DateTime.UtcNow:yyyyMMdd_HHmmss}.png");
-                                await page.ScreenshotAsync(new PageScreenshotOptions { Path = path, FullPage = true });
-                                Console.WriteLine($"Saved screenshot: {path}");
-                            }
+                            Console.WriteLine("Skipping this URL due to access restrictions.");
                             continue;
                         }
                     }
 
-                    // wait briefly for product-like elements (try selectors one by one)
+                    // Try to find products
                     IElementHandle[] els = Array.Empty<IElementHandle>();
                     foreach (var sel in selectors)
                     {
@@ -194,44 +237,25 @@ Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});");
                             if (maybe != null && maybe.Count > 0)
                             {
                                 els = maybe.ToArray();
+                                if (_config.EnableLogging) Console.WriteLine($"Found {els.Length} elements with selector: {sel}");
                                 break;
                             }
-
-                            var waited = await page.WaitForSelectorAsync(sel, new PageWaitForSelectorOptions { Timeout = 8000 });
-                            if (waited != null)
-                            {
-                                var found = await page.QuerySelectorAllAsync(sel);
-                                if (found != null && found.Count > 0)
-                                {
-                                    els = found.ToArray();
-                                    break;
-                                }
-                            }
-                        }
-                        catch
-                        {
-                            // ignore selector failures and try next
-                        }
-                    }
-
-                    // fallback: wait briefly for any product-like element if none found
-                    if (els.Length == 0)
-                    {
-                        try
-                        {
-                            await page.WaitForTimeoutAsync(800); // small pause for lazy-loaded content
-                            var fallback = await page.QuerySelectorAllAsync("[class*='card'], [class*='product']");
-                            if (fallback != null && fallback.Count > 0) els = fallback.ToArray();
                         }
                         catch { }
                     }
 
                     if (els.Length == 0)
                     {
-                        if (_config.EnableLogging) Console.WriteLine($"ATB: no product elements found on {url} (body length {(await page.ContentAsync()).Length})");
+                        if (_config.EnableLogging) 
+                        {
+                            Console.WriteLine($"ATB: no product elements found on {url}");
+                            var bodyText = await page.Locator("body").InnerTextAsync();
+                            Console.WriteLine($"Page body preview: {bodyText.Substring(0, Math.Min(200, bodyText.Length))}...");
+                        }
                     }
                     else
                     {
+                        var beforeCount = products.Count;
                         foreach (var el in els)
                         {
                             try
@@ -245,18 +269,18 @@ Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});");
                                     Category = _category
                                 });
                             }
-                            catch { /* ignore element-level errors */ }
+                            catch { }
                         }
-                    }
-                    // After successfully scraping products from a page
-                    if (els.Length > 0 && products.Count > 0)
-                    {
-                        // Save cookies for next time
-                        await context.StorageStateAsync(new BrowserContextStorageStateOptions 
-                        { 
-                            Path = cookiePath 
-                        });
-                        if (_config.EnableLogging) Console.WriteLine("✓ Saved fresh cookies");
+                        
+                        var addedCount = products.Count - beforeCount;
+                        if (_config.EnableLogging) Console.WriteLine($"✓ Extracted {addedCount} products from this page");
+                        
+                        // Save cookies after successful scrape
+                        if (addedCount > 0)
+                        {
+                            await context.StorageStateAsync(new BrowserContextStorageStateOptions { Path = cookiePath });
+                            if (_config.EnableLogging) Console.WriteLine("✓ Saved fresh cookies");
+                        }
                     }
                 }
                 catch (Exception ex)
@@ -265,12 +289,14 @@ Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});");
                     if (_config.SaveErrorScreenshots)
                     {
                         Directory.CreateDirectory("output");
-                        var path = Path.Combine("output", $"atb_error_{DateTime.UtcNow:yyyyMMdd_HHmms}.png");
-                        try { await page.ScreenshotAsync(new PageScreenshotOptions { Path = path, FullPage = true }); Console.WriteLine($"Saved screenshot: {path}"); } catch { }
+                        var path = Path.Combine("output", $"atb_error_{DateTime.UtcNow:yyyyMMdd_HHmmss}.png");
+                        try { await page.ScreenshotAsync(new PageScreenshotOptions { Path = path, FullPage = true }); } catch { }
                     }
                 }
-                if (_config.EnableLogging) Console.WriteLine($"Scraped {products.Count} products so far. Waiting 3 seconds before next page...");
-                await Task.Delay(3000); // Wait 3 seconds between pages
+
+                // Longer delay between pages
+                if (_config.EnableLogging) Console.WriteLine($"Waiting 5-8 seconds before next page...");
+                await Task.Delay(new Random().Next(5000, 8000));
             }
 
             await context.CloseAsync();
