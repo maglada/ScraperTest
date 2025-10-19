@@ -6,15 +6,6 @@ using Microsoft.Playwright;
 
 namespace ProductScraper
 {
-    // /*
-    //  Small ATB scraper (documentation):
-    //  - Extracts raw inner text from product cards on ATB catalog pages.
-    //  - Keeps extraction minimal: raw text is stored in Product.Name so parsing can be added later.
-    //  - Detects Cloudflare / Turnstile challenges and can wait for a manual solve when
-    //    ScraperConfig.HumanSolveCaptcha == true (run with Headless = false to interact).
-    //  - Enable detailed output via ScraperConfig.EnableLogging and save screenshots with SaveErrorScreenshots.
-    //  - Avoids aggressive headers and networkidle waits to reduce Cloudflare triggers.
-    // */
     public class AtbProductScraper : IProductScraper
     {
         private readonly ScraperConfig _config;
@@ -26,8 +17,6 @@ namespace ProductScraper
             _category = string.IsNullOrWhiteSpace(category) ? "ATB" : category;
         }
 
-        // Safely detect whether the ScraperConfig type exposes a HumanSolveCaptcha boolean
-        // property; use reflection so this code compiles even if that property doesn't exist.
         private static bool GetConfigAllowsHumanSolve(ScraperConfig config)
         {
             if (config == null) return false;
@@ -50,19 +39,18 @@ namespace ProductScraper
 
             using var playwright = await Playwright.CreateAsync();
             
-            // Use Firefox instead of Chromium - harder to detect
             await using var browser = await playwright.Firefox.LaunchAsync(new BrowserTypeLaunchOptions
             {
                 Headless = _config.Headless,
-                SlowMo = _config.SlowMo
+                SlowMo = _config.SlowMo,
+                Args = new[] { "--disable-blink-features=AutomationControlled" }
             });
 
             Console.WriteLine($"Launching Firefox headless? {_config.Headless}");
             
-            var cookiePath = "Scrapers/cookies_playwright.json";
-            Console.WriteLine($"Looking for cookies at: {Path.GetFullPath(cookiePath)}");
+            var cookiePath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Scrapers", "cookies_playwright.json"));
+            Console.WriteLine($"Looking for cookies at: {cookiePath}");
             
-            // Check if cookies file exists
             var cookiesExist = File.Exists(cookiePath);
             Console.WriteLine($"Cookies file exists: {cookiesExist}");
 
@@ -71,22 +59,13 @@ namespace ProductScraper
                 StorageStatePath = cookiesExist ? cookiePath : null,
                 IgnoreHTTPSErrors = true,
                 JavaScriptEnabled = true,
-                UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+                UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:115.0) Gecko/20100101 Firefox/115.0",
                 Locale = "uk-UA",
-                ViewportSize = new ViewportSize { Width = 1920, Height = 1080 },
+                ViewportSize = new ViewportSize { Width = 1366, Height = 768 }, // More common resolution
                 ExtraHTTPHeaders = new Dictionary<string, string>
                 {
-                    ["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-                    ["Accept-Language"] = "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
-                    ["Accept-Encoding"] = "gzip, deflate, br",
-                    ["DNT"] = "1",
-                    ["Connection"] = "keep-alive",
-                    ["Upgrade-Insecure-Requests"] = "1",
-                    ["Sec-Fetch-Dest"] = "document",
-                    ["Sec-Fetch-Mode"] = "navigate",
-                    ["Sec-Fetch-Site"] = "none",
-                    ["Sec-Fetch-User"] = "?1",
-                    ["Cache-Control"] = "max-age=0"
+                    ["Accept-Language"] = "uk-UA,uk;q=0.9",
+                    ["Referer"] = "https://www.atbmarket.com/"
                 }
             });
 
@@ -98,136 +77,183 @@ namespace ProductScraper
                 page.PageError += (_, err) => Console.WriteLine($"PAGE ERROR: {err}");
             }
 
-            // More aggressive stealth
             await page.AddInitScriptAsync(@"
-                // Remove webdriver property
                 Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-                
-                // Add chrome object for Firefox
-                window.chrome = { runtime: {} };
-                
-                // Override permissions
-                const originalQuery = window.navigator.permissions.query;
-                window.navigator.permissions.query = (parameters) => (
-                    parameters.name === 'notifications' ?
-                        Promise.resolve({ state: Notification.permission }) :
-                        originalQuery(parameters)
-                );
-                
-                // Add realistic plugins
-                Object.defineProperty(navigator, 'plugins', {
-                    get: () => [
-                        { name: 'Chrome PDF Plugin', filename: 'internal-pdf-viewer', description: 'Portable Document Format' },
-                        { name: 'Chrome PDF Viewer', filename: 'mhjfbmdgcfjbbpaeojofohoefgiehjai', description: '' },
-                        { name: 'Native Client', filename: 'internal-nacl-plugin', description: '' }
-                    ]
-                });
-                
-                // Languages
-                Object.defineProperty(navigator, 'languages', {
-                    get: () => ['uk-UA', 'uk', 'en-US', 'en']
-                });
-                
-                // Platform
-                Object.defineProperty(navigator, 'platform', {
-                    get: () => 'Win32'
-                });
-                
-                // Vendor
-                Object.defineProperty(navigator, 'vendor', {
-                    get: () => 'Google Inc.'
-                });
+                delete navigator.__proto__.webdriver;
             ");
 
             var selectors = new[]
             {
+                "[class*='catalog-item__bottom']",
                 ".product-tile[data-testid*='product']",
                 ".product-card",
-                "[class*='ProductTile']",
-                "[class*='catalog-item__bottom']",
-                "[data-test*='product']",
-                ".product, .product-item, .card, [class*='product']"
+                "[class*='ProductTile']"
             };
 
-            foreach (var url in catalogUrls)
+            // Track if we've already solved CAPTCHA this session
+            bool captchaSolvedThisSession = false;
+
+            for (int i = 0; i < catalogUrls.Count; i++)
             {
+                var url = catalogUrls[i];
                 if (string.IsNullOrWhiteSpace(url)) continue;
 
                 try
                 {
-                    if (_config.EnableLogging) Console.WriteLine($"ATB: navigating to {url}");
+                    if (_config.EnableLogging) Console.WriteLine($"\n[{i+1}/{catalogUrls.Count}] ATB: navigating to {url}");
 
-                    // Add random delay before each request (more human-like)
-                    var randomDelay = new Random().Next(2000, 5000);
-                    await Task.Delay(randomDelay);
+                    // Longer delays
+                    var delayMs = new Random().Next(5000, 10000);
+                    if (_config.EnableLogging) Console.WriteLine($"Pre-request delay: {delayMs}ms");
+                    await Task.Delay(delayMs);
 
-                    page.SetDefaultNavigationTimeout(60000);
+                    page.SetDefaultNavigationTimeout(90000);
                     
                     var response = await page.GotoAsync(url, new PageGotoOptions
                     {
-                        WaitUntil = WaitUntilState.Load, // Wait for full load instead of just DOM
-                        Timeout = 60000
+                        WaitUntil = WaitUntilState.DOMContentLoaded,
+                        Timeout = 90000
                     });
                     
                     Console.WriteLine($"Response status: {response?.Status}");
 
-                    // Wait a bit for any lazy-loaded content
+                    // Wait for potential CAPTCHA to load
                     await Task.Delay(3000);
 
-                    // Check for captcha
-                    var hasCaptchaFrame = await page.QuerySelectorAsync("iframe[src*='turnstile'], iframe[src*='challenges.cloudflare'], [id*='cf-turnstile'], [class*='captcha']") != null;
-                    
-                    if ((response != null && response.Status == 403) || hasCaptchaFrame)
+                    // Check multiple CAPTCHA indicators
+                    var captchaSelectors = new[]
                     {
-                        Console.WriteLine($"ATB: captcha/challenge detected on {url} (status {response?.Status}).");
+                        "iframe[src*='turnstile']",
+                        "iframe[src*='challenges.cloudflare']",
+                        "[id*='cf-turnstile']",
+                        "[class*='cf-turnstile']",
+                        "#challenge-form"
+                    };
+
+                    bool hasCaptcha = false;
+                    foreach (var selector in captchaSelectors)
+                    {
+                        var element = await page.QuerySelectorAsync(selector);
+                        if (element != null)
+                        {
+                            hasCaptcha = true;
+                            if (_config.EnableLogging) Console.WriteLine($"Detected CAPTCHA element: {selector}");
+                            break;
+                        }
+                    }
+
+                    // Also check for "Checking your browser" text
+                    var pageText = await page.Locator("body").InnerTextAsync();
+                    if (pageText.Contains("Checking your browser") || pageText.Contains("Just a moment"))
+                    {
+                        hasCaptcha = true;
+                        if (_config.EnableLogging) Console.WriteLine("Detected Cloudflare challenge text");
+                    }
+                    
+                    if (response?.Status == 403 || hasCaptcha)
+                    {
+                        Console.WriteLine($"\n⚠⚠⚠ CLOUDFLARE CHALLENGE DETECTED ⚠⚠⚠");
                         
-                        // Save HTML for inspection
+                        // Save debug info
+                        var timestamp = DateTime.UtcNow.ToString("yyyyMMdd_HHmmss");
                         var html = await page.ContentAsync();
-                        File.WriteAllText($"blocked_page_{DateTime.UtcNow:yyyyMMddHHmmss}.html", html);
-                        Console.WriteLine($"Saved blocked page HTML for inspection");
+                        var debugFile = $"blocked_page_{timestamp}.html";
+                        File.WriteAllText(debugFile, html);
+                        Console.WriteLine($"Saved HTML to: {debugFile}");
 
                         if (_config.SaveErrorScreenshots)
                         {
                             Directory.CreateDirectory("output");
-                            var path = Path.Combine("output", $"atb_blocked_{DateTime.UtcNow:yyyyMMdd_HHmmss}.png");
-                            await page.ScreenshotAsync(new PageScreenshotOptions { Path = path, FullPage = true });
-                            Console.WriteLine($"Saved screenshot: {path}");
+                            var screenshotPath = Path.Combine("output", $"atb_captcha_{timestamp}.png");
+                            await page.ScreenshotAsync(new PageScreenshotOptions { Path = screenshotPath, FullPage = true });
+                            Console.WriteLine($"Saved screenshot: {screenshotPath}");
                         }
                         
-                        // If manual solving is enabled, wait for user
-                        if (GetConfigAllowsHumanSolve(_config))
+                        // Manual solve option
+                        if (GetConfigAllowsHumanSolve(_config) && !captchaSolvedThisSession)
                         {
-                            Console.WriteLine("\n===========================================");
-                            Console.WriteLine("CAPTCHA DETECTED - MANUAL INTERVENTION NEEDED");
-                            Console.WriteLine("===========================================");
-                            Console.WriteLine("The browser should be visible (set Headless=false)");
-                            Console.WriteLine("Please solve the CAPTCHA in the browser, then press Enter to continue...");
+                            Console.WriteLine("\n" + new string('=', 60));
+                            Console.WriteLine("MANUAL CAPTCHA SOLVING REQUIRED");
+                            Console.WriteLine(new string('=', 60));
+                            Console.WriteLine("Instructions:");
+                            Console.WriteLine("1. Look at the browser window that opened");
+                            Console.WriteLine("2. Solve the Cloudflare Turnstile challenge");
+                            Console.WriteLine("3. Wait for the page to fully load");
+                            Console.WriteLine("4. Press ENTER here to continue");
+                            Console.WriteLine(new string('=', 60));
                             Console.ReadLine();
                             
-                            // Check if we're past the captcha
-                            var stillBlocked = await page.QuerySelectorAsync("iframe[src*='turnstile'], iframe[src*='challenges.cloudflare']");
-                            if (stillBlocked == null)
+                            // Wait a bit more after user presses Enter
+                            Console.WriteLine("Checking if challenge is solved...");
+                            await Task.Delay(2000);
+
+                            // Check if we're past the challenge
+                            var stillHasCaptcha = false;
+                            foreach (var selector in captchaSelectors)
                             {
-                                Console.WriteLine("✓ CAPTCHA appears to be solved! Continuing...");
+                                var element = await page.QuerySelectorAsync(selector);
+                                if (element != null)
+                                {
+                                    stillHasCaptcha = true;
+                                    break;
+                                }
+                            }
+
+                            // Also check URL - if it changed, we might be past it
+                            var currentUrl = page.Url;
+                            var responseStatus = response?.Status ?? 0;
+
+                            if (!stillHasCaptcha && currentUrl.Contains("atbmarket.com") && !pageText.Contains("Checking your browser"))
+                            {
+                                Console.WriteLine("✓✓✓ CAPTCHA SOLVED! ✓✓✓");
+                                captchaSolvedThisSession = true;
                                 
-                                // Save cookies after successful solve
+                                // Save cookies IMMEDIATELY
                                 await context.StorageStateAsync(new BrowserContextStorageStateOptions { Path = cookiePath });
-                                Console.WriteLine($"✓ Saved fresh cookies to {cookiePath}");
+                                Console.WriteLine($"✓ Cookies saved to: {cookiePath}");
+                                
+                                // Also save to backup location
+                                var backupPath = cookiePath.Replace(".json", $"_backup_{timestamp}.json");
+                                await context.StorageStateAsync(new BrowserContextStorageStateOptions { Path = backupPath });
+                                Console.WriteLine($"✓ Backup cookies saved to: {backupPath}");
+                                
+                                // Wait a bit before continuing
+                                await Task.Delay(3000);
                             }
                             else
                             {
-                                Console.WriteLine("⚠ CAPTCHA still present. Skipping this URL.");
+                                Console.WriteLine("⚠ Challenge still present or page didn't load properly.");
+                                Console.WriteLine($"Current URL: {currentUrl}");
+                                Console.WriteLine("Options:");
+                                Console.WriteLine("1. Press ENTER to retry this page");
+                                Console.WriteLine("2. Press CTRL+C to abort");
+                                Console.ReadLine();
+                                
+                                // Retry the current URL
+                                i--;
                                 continue;
                             }
                         }
+                        else if (captchaSolvedThisSession)
+                        {
+                            // We solved it before, but got blocked again
+                            Console.WriteLine("⚠ Got blocked again even after solving CAPTCHA once.");
+                            Console.WriteLine("This means:");
+                            Console.WriteLine("- ATB has very aggressive rate limiting");
+                            Console.WriteLine("- You need to wait much longer between requests");
+                            Console.WriteLine("- Consider using proxies");
+                            Console.WriteLine("\nStopping to avoid further blocks...");
+                            break;
+                        }
                         else
                         {
-                            Console.WriteLine("Skipping this URL due to access restrictions.");
-                            continue;
+                            Console.WriteLine("⚠ HumanSolveCaptcha is disabled. Stopping.");
+                            Console.WriteLine("Set HumanSolveCaptcha=true in config to manually solve.");
+                            break;
                         }
                     }
 
-                    // Try to find products
+                    // Find products
                     IElementHandle[] els = Array.Empty<IElementHandle>();
                     foreach (var sel in selectors)
                     {
@@ -246,11 +272,13 @@ namespace ProductScraper
 
                     if (els.Length == 0)
                     {
-                        if (_config.EnableLogging) 
+                        Console.WriteLine($"⚠ No product elements found on {url}");
+                        
+                        // Debug: show what we got
+                        if (_config.EnableLogging)
                         {
-                            Console.WriteLine($"ATB: no product elements found on {url}");
                             var bodyText = await page.Locator("body").InnerTextAsync();
-                            Console.WriteLine($"Page body preview: {bodyText.Substring(0, Math.Min(200, bodyText.Length))}...");
+                            Console.WriteLine($"Page preview: {bodyText.Substring(0, Math.Min(200, bodyText.Length))}...");
                         }
                     }
                     else
@@ -273,19 +301,19 @@ namespace ProductScraper
                         }
                         
                         var addedCount = products.Count - beforeCount;
-                        if (_config.EnableLogging) Console.WriteLine($"✓ Extracted {addedCount} products from this page");
+                        Console.WriteLine($"✓ Extracted {addedCount} products (Total: {products.Count})");
                         
                         // Save cookies after successful scrape
                         if (addedCount > 0)
                         {
                             await context.StorageStateAsync(new BrowserContextStorageStateOptions { Path = cookiePath });
-                            if (_config.EnableLogging) Console.WriteLine("✓ Saved fresh cookies");
+                            if (_config.EnableLogging) Console.WriteLine("✓ Cookies updated");
                         }
                     }
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"ATB ERROR for {url}: {ex.Message}");
+                    Console.WriteLine($"❌ ERROR for {url}: {ex.Message}");
                     if (_config.SaveErrorScreenshots)
                     {
                         Directory.CreateDirectory("output");
@@ -294,12 +322,22 @@ namespace ProductScraper
                     }
                 }
 
-                // Longer delay between pages
-                if (_config.EnableLogging) Console.WriteLine($"Waiting 5-8 seconds before next page...");
-                await Task.Delay(new Random().Next(5000, 8000));
+                // Much longer delay between pages
+                if (i < catalogUrls.Count - 1)
+                {
+                    var waitTime = new Random().Next(15000, 25000);
+                    if (_config.EnableLogging) Console.WriteLine($"Inter-page delay: {waitTime}ms ({waitTime/1000}s)");
+                    await Task.Delay(waitTime);
+                }
             }
 
             await context.CloseAsync();
+            
+            Console.WriteLine($"\n{'='*60}");
+            Console.WriteLine($"SCRAPING COMPLETE");
+            Console.WriteLine($"Total products extracted: {products.Count}");
+            Console.WriteLine($"{'='*60}");
+            
             return products;
         }
     }
