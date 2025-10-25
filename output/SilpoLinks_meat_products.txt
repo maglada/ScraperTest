@@ -1,0 +1,408 @@
+Total Products: 62
+Generated: 10/26/2025 12:21:02 AM
+================================================================================
+
+[SALE] Телячий ошийок охолоджений
+  Category: SilpoLinks_meat
+  Old Price: 33.58 ₴
+  New Price: 30.23 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Ковбаски гриль #ЦЕМ'ЯСО Баварські свинячі охолоджені г/у
+  Category: SilpoLinks_meat
+  Old Price: 134.00 ₴
+  New Price: 104.00 ₴
+  Discount: 22%
+  Valid Until: 
+
+[SALE] Фрикадельки індичі «Натурвіль» заморожені
+  Category: SilpoLinks_meat
+  Old Price: 300 ₴
+  New Price: 62.49 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Ковбаски PREMIA Чікенси для гриля та смаження
+  Category: SilpoLinks_meat
+  Old Price: 137.06 ₴
+  New Price: 123.35 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Чевапчічі PREMIA Party line в беконі
+  Category: SilpoLinks_meat
+  Old Price: 139.00 ₴
+  New Price: 119.54 ₴
+  Discount: 14%
+  Valid Until: 
+
+[SALE] Ковбаски для грилю та BBQ #ЦЕМ'ЯСО Easу cheesy з курки та свинини охолоджені г/у
+  Category: SilpoLinks_meat
+  Old Price: 169.00 ₴
+  New Price: 148.72 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Гамбургер «Натурвіль» з мяса індички без спецій заморожений
+  Category: SilpoLinks_meat
+  Old Price: 50.99 ₴
+  New Price: 44.87 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Курячий шніцель з філе охолоджене
+  Category: SilpoLinks_meat
+  Old Price: 27.39 ₴
+  New Price: 24.65 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Курячі крила в маринаді
+  Category: SilpoLinks_meat
+  Old Price: 15.58 ₴
+  New Price: 13.71 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Крильця курячі Снятинська птиця в маринаді з солодким чилі
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 14.40 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Свинячий стейк (биток) з кісткою
+  Category: SilpoLinks_meat
+  Old Price: 29.64 ₴
+  New Price: 26.68 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Свинячий стейк T-bone
+  Category: SilpoLinks_meat
+  Old Price: 34.69 ₴
+  New Price: 30.88 ₴
+  Discount: 11%
+  Valid Until: 
+
+[SALE] Телячий стейк
+  Category: SilpoLinks_meat
+  Old Price: 45.59 ₴
+  New Price: 41.03 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Яловичина молода Ekro T-bone Wet Aged охолоджена в/у
+  Category: SilpoLinks_meat
+  Old Price: 99.90 ₴
+  New Price: 89.91 ₴
+  Discount: 10%
+  Valid Until: 
+
+Яловичий стейк Ті-боун Dry Aged охолоджений в/у
+  Category: SilpoLinks_meat
+  Price: 119.90 ₴
+
+[SALE] Теляча гомілка Оссобуко
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 26.96 ₴
+  Discount: 
+  Valid Until: 
+
+Яловичий стейк Рібай Dry Aged охолоджений в/у
+  Category: SilpoLinks_meat
+  Price: 189.90 ₴
+
+Стейк «Рібай» Dry Aged в/у
+  Category: SilpoLinks_meat
+  Price: 189.90 ₴
+
+[SALE] Телячий стейк Оссобуко охолоджений в/у
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 19.90 ₴
+  Discount: 
+  Valid Until: 
+
+Стейк стріплойн Dry Aged в/у
+  Category: SilpoLinks_meat
+  Price: 189.90 ₴
+
+Стейк «Портерхаус» Dry Aged в/у
+  Category: SilpoLinks_meat
+  Price: 149.90 ₴
+
+Стейк «Ті Боун» Dry Aged в/у
+  Category: SilpoLinks_meat
+  Price: 119.90 ₴
+
+Яловичина молода Ekro Striploin Wet Aged охолоджена в/у
+  Category: SilpoLinks_meat
+  Price: 139.90 ₴
+
+Яловичина молода Ekro Ribeye Wet Aged охолоджена в/у
+  Category: SilpoLinks_meat
+  Price: 139.90 ₴
+
+[SALE] Яловичий стейк охолоджений фасований
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 42.99 ₴
+  Discount: 
+  Valid Until: 
+
+Яловичина Ангус стейк Рібай охолоджений в/у
+  Category: SilpoLinks_meat
+  Price: 389.90 ₴
+
+Яловичина молода Ekro Cowboy Wet Aged на кістці охолоджена в/у
+  Category: SilpoLinks_meat
+  Price: 119.90 ₴
+
+[SALE] Індиче філе охолоджене
+  Category: SilpoLinks_meat
+  Old Price: 35.87 ₴
+  New Price: 29.78 ₴
+  Discount: 17%
+  Valid Until: 
+
+[SALE] Свинячий окіст без кістки
+  Category: SilpoLinks_meat
+  Old Price: 24.40 ₴
+  New Price: 21.96 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Яловичина, задня частина фасована 500-700 г охолоджена
+  Category: SilpoLinks_meat
+  Old Price: 37.50 ₴
+  New Price: 33.75 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Телячий стейк
+  Category: SilpoLinks_meat
+  Old Price: 45.59 ₴
+  New Price: 41.03 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Телятина, шніцель
+  Category: SilpoLinks_meat
+  Old Price: 45.74 ₴
+  New Price: 38.88 ₴
+  Discount: 15%
+  Valid Until: 
+
+[SALE] Ковбаски Фірмові курячі охолоджені фасовані
+  Category: SilpoLinks_meat
+  Old Price: 108.90 ₴
+  New Price: 94.74 ₴
+  Discount: 13%
+  Valid Until: 
+
+[SALE] Ковбаски для смаження Індичі
+  Category: SilpoLinks_meat
+  Old Price: 28.64 ₴
+  New Price: 25.77 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Куряче стегно в маринаді
+  Category: SilpoLinks_meat
+  Old Price: 17.21 ₴
+  New Price: 15.14 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Сало свиняче фермерське копчене на сіні охолоджене
+  Category: SilpoLinks_meat
+  Old Price: 36.40 ₴
+  New Price: 32.76 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Яловичина молода Ekro T-bone Wet Aged охолоджена в/у
+  Category: SilpoLinks_meat
+  Old Price: 99.90 ₴
+  New Price: 89.91 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Котлети для бургерів з телятини зі смаком цибулі охолоджені
+  Category: SilpoLinks_meat
+  Old Price: 43.57 ₴
+  New Price: 38.78 ₴
+  Discount: 11%
+  Valid Until: 
+
+[SALE] Свиняча рулька Mr.Grill «Чеська» заморожена
+  Category: SilpoLinks_meat
+  Old Price: 38.75 ₴
+  New Price: 34.87 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Свинячий стейк «Хвилинка»
+  Category: SilpoLinks_meat
+  Old Price: 29.13 ₴
+  New Price: 25.93 ₴
+  Discount: 11%
+  Valid Until: 
+
+[SALE] Сало бутербродне зі шкварками охолоджене
+  Category: SilpoLinks_meat
+  Old Price: 24.59 ₴
+  New Price: 19.92 ₴
+  Discount: 19%
+  Valid Until: 
+
+[SALE] Шашлик із свинини Соковитий напівфабрикат кулінарний
+  Category: SilpoLinks_meat
+  Old Price: 24.90 ₴
+  New Price: 22.41 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Кролик, передні лапки свіжоморожені в/у
+  Category: SilpoLinks_meat
+  Old Price: 36.40 ₴
+  New Price: 32.76 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Телячий ошийок з кісткою
+  Category: SilpoLinks_meat
+  Old Price: 36.98 ₴
+  New Price: 33.28 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Ковбаски PREMIA Чізчікенси для гриля та смаження
+  Category: SilpoLinks_meat
+  Old Price: 450 ₴
+  New Price: 152.25 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Ковбаски PREMIA Біфгрильки для гриля та смаження
+  Category: SilpoLinks_meat
+  Old Price: 450 ₴
+  New Price: 137.06 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Філе куряче «Епікур» охолоджене, малий лоток
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 26.64 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Куряче філе
+  Category: SilpoLinks_meat
+  Old Price: 22.59 ₴
+  New Price: 20.40 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Куряче стегно
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 16.38 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Курячий фарш із філе подрібнений
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 25.34 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Куряча гомілка
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 10.55 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Печінка куряча охолоджена
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 12.90 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Філе стегна курчат-бройлерів Епікур охолоджене, малий лоток
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 28.34 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Стегно куряче Епікур охолоджене, малий лоток
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 22.47 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Свинячий биток без кістки охолоджений
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 32.90 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Крило куряче Епікур охолоджене, малий лоток
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 16.85 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Серце куряче охолоджене
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 12.90 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Гомілка куряча Епікур охолоджена, малий лоток
+  Category: SilpoLinks_meat
+  Old Price: 14.90 ₴
+  New Price: 12.40 ₴
+  Discount: 17%
+  Valid Until: 
+
+[SALE] Індиче стегно охолоджене
+  Category: SilpoLinks_meat
+  Old Price: 25.90 ₴
+  New Price: 22.90 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Фарш свинячий
+  Category: SilpoLinks_meat
+  Old Price: 20.90 ₴
+  New Price: 18.90 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Куряча четвертина
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 10.45 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Фарш телячий
+  Category: SilpoLinks_meat
+  Old Price: 100 ₴
+  New Price: 25.62 ₴
+  Discount: 
+  Valid Until: 
+

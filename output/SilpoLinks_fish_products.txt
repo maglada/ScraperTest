@@ -1,0 +1,333 @@
+Total Products: 47
+Generated: 10/26/2025 12:13:28 AM
+================================================================================
+
+[SALE] Креветка «Ванамей» хвости в глазурі
+  Category: SilpoLinks_fish
+  Old Price: 89.90 ₴
+  New Price: 76.41 ₴
+  Discount: 15%
+  Valid Until: 
+
+[SALE] Оселедець Norsk Delikatesse норвезький молодий слабосолений
+  Category: SilpoLinks_fish
+  Old Price: 22.90 ₴
+  New Price: 16.90 ₴
+  Discount: 26%
+  Valid Until: 
+
+[SALE] Дорадо патраний чищений охолоджений 300-600
+  Category: SilpoLinks_fish
+  Old Price: 51.90 ₴
+  New Price: 42.56 ₴
+  Discount: 18%
+  Valid Until: 
+
+[SALE] Тунець стейк свіжоморожений
+  Category: SilpoLinks_fish
+  Old Price: 100 ₴
+  New Price: 59.90 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Капуста морська «Ніжин» з морквою та селерою
+  Category: SilpoLinks_fish
+  Old Price: 22.99 ₴
+  New Price: 19.32 ₴
+  Discount: 16%
+  Valid Until: 
+
+[SALE] М'ясо мідій «Премія»® варено-морожене
+  Category: SilpoLinks_fish
+  Old Price: 254.00 ₴
+  New Price: 187.96 ₴
+  Discount: 26%
+  Valid Until: 
+
+[SALE] Сьомга Norven філе-шматок слабосолена
+  Category: SilpoLinks_fish
+  Old Price: 269.00 ₴
+  New Price: 199.06 ₴
+  Discount: 26%
+  Valid Until: 
+
+[SALE] Форель слабосолена «Премія»®, нарізка
+  Category: SilpoLinks_fish
+  Old Price: 199.00 ₴
+  New Price: 159.20 ₴
+  Discount: 20%
+  Valid Until: 
+
+[SALE] Палички крабові Водний світ Сніжний краб охолоджені
+  Category: SilpoLinks_fish
+  Old Price: 174.00 ₴
+  New Price: 127.02 ₴
+  Discount: 27%
+  Valid Until: 
+
+[SALE] Сьомга «Премія»® слабосолона шматок на шкірі
+  Category: SilpoLinks_fish
+  Old Price: 299.00 ₴
+  New Price: 199.00 ₴
+  Discount: 33%
+  Valid Until: 
+
+[SALE] Палички крабові «Премія»® Сніжний краб охолоджені
+  Category: SilpoLinks_fish
+  Old Price: 154.00 ₴
+  New Price: 129.36 ₴
+  Discount: 16%
+  Valid Until: 
+
+[SALE] Коктейль морский Norven для різотто і паельї свіжоморожений
+  Category: SilpoLinks_fish
+  Old Price: 229.00 ₴
+  New Price: 187.78 ₴
+  Discount: 18%
+  Valid Until: 
+
+[SALE] Скумбрія свіжоморожена
+  Category: SilpoLinks_fish
+  Old Price: 24.90 ₴
+  New Price: 20.92 ₴
+  Discount: 16%
+  Valid Until: 
+
+[SALE] Скумбрія без голови холодного копчення
+  Category: SilpoLinks_fish
+  Old Price: 59.90 ₴
+  New Price: 49.72 ₴
+  Discount: 17%
+  Valid Until: 
+
+[SALE] Форель філе слабосолене, нарізка
+  Category: SilpoLinks_fish
+  Old Price: 139.90 ₴
+  New Price: 118.92 ₴
+  Discount: 15%
+  Valid Until: 
+
+[SALE] Креветки «Премія»® в панцирі глазуровані свіжоморожені 40/50
+  Category: SilpoLinks_fish
+  Old Price: 559.00 ₴
+  New Price: 357.76 ₴
+  Discount: 36%
+  Valid Until: 
+
+[SALE] Креветки «Премія»® глазуровані неочищені варено-морожені 70/90
+  Category: SilpoLinks_fish
+  Old Price: 299.00 ₴
+  New Price: 224.25 ₴
+  Discount: 25%
+  Valid Until: 
+
+[SALE] Паста Водний світ з ікри скандинавських риб зі шматочками лосося
+  Category: SilpoLinks_fish
+  Old Price: 69.49 ₴
+  New Price: 62.54 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Оселедець Norven Lofoten філе слабосолене без олії
+  Category: SilpoLinks_fish
+  Old Price: 97.99 ₴
+  New Price: 86.23 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Ікра тріски Veladis пробійна підкопчена з/б
+  Category: SilpoLinks_fish
+  Old Price: 64.99 ₴
+  New Price: 56.54 ₴
+  Discount: 13%
+  Valid Until: 
+
+[SALE] Ікра минтая Veladis пробійна підкопчена з/б
+  Category: SilpoLinks_fish
+  Old Price: 99.00 ₴
+  New Price: 86.13 ₴
+  Discount: 13%
+  Valid Until: 
+
+[SALE] Палички крабові «Премія»® продукт із сурімі охолоджені
+  Category: SilpoLinks_fish
+  Old Price: 240 ₴
+  New Price: 99.00 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Лосось хребти гарячого копчення
+  Category: SilpoLinks_fish
+  Old Price: 19.90 ₴
+  New Price: 16.92 ₴
+  Discount: 15%
+  Valid Until: 
+
+[SALE] Хек мерлуза гарячого копчення
+  Category: SilpoLinks_fish
+  Old Price: 25.40 ₴
+  New Price: 21.84 ₴
+  Discount: 14%
+  Valid Until: 
+
+[SALE] Продукт «Премія»® з ікрою риби і лососем пастеризований
+  Category: SilpoLinks_fish
+  Old Price: 160 ₴
+  New Price: 62.99 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Палички крабові VICI заморожені
+  Category: SilpoLinks_fish
+  Old Price: 199.00 ₴
+  New Price: 169.15 ₴
+  Discount: 15%
+  Valid Until: 
+
+[SALE] Крабові палички «Премія»® продукт з сурімі заморожені
+  Category: SilpoLinks_fish
+  Old Price: 40.19 ₴
+  New Price: 33.36 ₴
+  Discount: 17%
+  Valid Until: 
+
+[SALE] Паста Водний світ з ікри скандинавських риб з копченою сьомгою
+  Category: SilpoLinks_fish
+  Old Price: 69.49 ₴
+  New Price: 62.54 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Капуста морська «Грінвіль» з морквою та селерою
+  Category: SilpoLinks_fish
+  Old Price: 72.99 ₴
+  New Price: 60.58 ₴
+  Discount: 17%
+  Valid Until: 
+
+[SALE] Ікра лососева «Шаланда» зерниста, з/б
+  Category: SilpoLinks_fish
+  Old Price: 539.00 ₴
+  New Price: 458.15 ₴
+  Discount: 15%
+  Valid Until: 
+
+[SALE] Черевця лосося гарячого копчення
+  Category: SilpoLinks_fish
+  Old Price: 27.90 ₴
+  New Price: 23.44 ₴
+  Discount: 16%
+  Valid Until: 
+
+[SALE] Голови делікатесної риби патрані охолоджені
+  Category: SilpoLinks_fish
+  Old Price: 4.79 ₴
+  New Price: 3.98 ₴
+  Discount: 17%
+  Valid Until: 
+
+[SALE] Креветки Водний світ заморожені глазуровані 70/90
+  Category: SilpoLinks_fish
+  Old Price: 299.00 ₴
+  New Price: 239.20 ₴
+  Discount: 20%
+  Valid Until: 
+
+[SALE] Сьомга Norven слабосолена нарізка в/у
+  Category: SilpoLinks_fish
+  Old Price: 299.00 ₴
+  New Price: 254.15 ₴
+  Discount: 15%
+  Valid Until: 
+
+[SALE] Мідії у соусі «Чімічуррі»
+  Category: SilpoLinks_fish
+  Old Price: 35.90 ₴
+  New Price: 30.16 ₴
+  Discount: 16%
+  Valid Until: 
+
+[SALE] Мідії в олії зі спеціями
+  Category: SilpoLinks_fish
+  Old Price: 38.90 ₴
+  New Price: 32.68 ₴
+  Discount: 16%
+  Valid Until: 
+
+[SALE] Паста Водний світ з ікри скандинавських риб з креветками
+  Category: SilpoLinks_fish
+  Old Price: 68.99 ₴
+  New Price: 62.09 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Крабові палички «Премія»® продукт з сурімі заморожені
+  Category: SilpoLinks_fish
+  Old Price: 149.00 ₴
+  New Price: 128.14 ₴
+  Discount: 14%
+  Valid Until: 
+
+[SALE] М'ясо мідій «Премія»®
+  Category: SilpoLinks_fish
+  Old Price: 250 ₴
+  New Price: 129.00 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Коктейль морський «Премія»® варено-морожений
+  Category: SilpoLinks_fish
+  Old Price: 174.00 ₴
+  New Price: 147.90 ₴
+  Discount: 15%
+  Valid Until: 
+
+[SALE] Оселедець Zigmas One Bite філе шматочками слабосолене з кропом в олії
+  Category: SilpoLinks_fish
+  Old Price: 126.00 ₴
+  New Price: 104.58 ₴
+  Discount: 17%
+  Valid Until: 
+
+[SALE] Коктейль Nuchar морський
+  Category: SilpoLinks_fish
+  Old Price: 329.00 ₴
+  New Price: 276.36 ₴
+  Discount: 16%
+  Valid Until: 
+
+[SALE] Ікра Veladis з сьомгою в соусі
+  Category: SilpoLinks_fish
+  Old Price: 99.00 ₴
+  New Price: 85.14 ₴
+  Discount: 14%
+  Valid Until: 
+
+[SALE] Осетер холодного копчення, нарізка
+  Category: SilpoLinks_fish
+  Old Price: 149.00 ₴
+  New Price: 129.63 ₴
+  Discount: 13%
+  Valid Until: 
+
+[SALE] Восьминіг Nuchar відбірний варений 2 щупальці
+  Category: SilpoLinks_fish
+  Old Price: 899.00 ₴
+  New Price: 764.15 ₴
+  Discount: 15%
+  Valid Until: 
+
+[SALE] Палички крабові Aqua Vita заморожені
+  Category: SilpoLinks_fish
+  Old Price: 61.49 ₴
+  New Price: 52.27 ₴
+  Discount: 15%
+  Valid Until: 
+
+[SALE] Минтай Norven філе свіжоморожений без шкірки
+  Category: SilpoLinks_fish
+  Old Price: 249.00 ₴
+  New Price: 211.65 ₴
+  Discount: 15%
+  Valid Until: 
+

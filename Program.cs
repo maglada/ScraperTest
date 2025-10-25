@@ -14,7 +14,7 @@ class Program
             // Configure scraper behavior
             var config = new ScraperConfig
             {
-                Headless = false,
+                Headless = true,
                 SlowMo = 1000,
                 EnableLogging = true,
                 EnableDebugOutput = false,

@@ -1,0 +1,192 @@
+Total Products: 47
+Generated: 10/26/2025 12:04:52 AM
+================================================================================
+
+Сигарети L&M First Cut Blue з фільтром
+  Category: SilpoLinks_cig
+  Price: 120.00 ₴
+
+Сигарети L&M First Cut Red з фільтром
+  Category: SilpoLinks_cig
+  Price: 120.00 ₴
+
+Паучі нікотиновмісні ZYN Medium Spearmint
+  Category: SilpoLinks_cig
+  Price: 200.00 ₴
+
+Паучі нікотиновмісні ZYN X-strong Icy blackcurrant
+  Category: SilpoLinks_cig
+  Price: 200.00 ₴
+
+Паучі нікотиновмісні ZYN Max Cool mint
+  Category: SilpoLinks_cig
+  Price: 200.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Purple Wave
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Turquoise
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Sun Pearl
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Amber
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Starling Pearl
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Zing Wave
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Oasis Pearl
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Blossom Wave
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Bronze
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Silver
+  Category: SilpoLinks_cig
+  Price: 145.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Twilight Pearl
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Summer Wave
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Ruby Fuse
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Виріб тютюновий для електричного нагрівання Heets Purple
+  Category: SilpoLinks_cig
+  Price: 150.00 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Cameo Wave
+  Category: SilpoLinks_cig
+  Price: 145.00 ₴
+
+Гумка жувальна Orbit White Bottle Свіжа м'ята
+  Category: SilpoLinks_cig
+  Price: 78.49 ₴
+
+Паучі нікотиновмісні Velo Mighty peppermint Екстра-інтенсивний
+  Category: SilpoLinks_cig
+  Price: 189.94 ₴
+
+Сигарети Sobranie Golds з фільтром
+  Category: SilpoLinks_cig
+  Price: 159.94 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Arbor Pearl
+  Category: SilpoLinks_cig
+  Price: 155.00 ₴
+
+Сигарети Parliament Aqua Blue з фільтром
+  Category: SilpoLinks_cig
+  Price: 159.94 ₴
+
+Сигарети Sobranie Gold з фільтром
+  Category: SilpoLinks_cig
+  Price: 150.00 ₴
+
+Виріб тютюновий Heets Silver Select для електричного нагрівання
+  Category: SilpoLinks_cig
+  Price: 150.00 ₴
+
+Виріб тютюновий для електричного нагрівання Neo Demi Amber Boost
+  Category: SilpoLinks_cig
+  Price: 134.94 ₴
+
+Виріб тютюновий для електричного нагрівання Neo Demi Purple Boost
+  Category: SilpoLinks_cig
+  Price: 134.94 ₴
+
+Виріб тютюновий для електричного нагрівання Heets Zing Wave
+  Category: SilpoLinks_cig
+  Price: 150.00 ₴
+
+Сигарети Camel Blue з фільтром
+  Category: SilpoLinks_cig
+  Price: 145.00 ₴
+
+Виріб тютюновий Heets Torquoise для електричного нагрівання
+  Category: SilpoLinks_cig
+  Price: 150.00 ₴
+
+Сигарети L&M Loft Sea Blue з фільтром
+  Category: SilpoLinks_cig
+  Price: 134.94 ₴
+
+Виріб тютюновий Neo Stics Boost Scarlet для електричного нагрівання
+  Category: SilpoLinks_cig
+  Price: 139.94 ₴
+
+Виріб тютюновий для електричного нагрівання Neo Demi Ruby Boost
+  Category: SilpoLinks_cig
+  Price: 134.94 ₴
+
+Виріб тютюновий для електричного нагрівання Heets Purple Wave
+  Category: SilpoLinks_cig
+  Price: 675.00 ₴
+
+Гумка жувальна Orbit Sweet Mint драже
+  Category: SilpoLinks_cig
+  Price: 19.99 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Sienna
+  Category: SilpoLinks_cig
+  Price: 134.94 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Riviera Pearl
+  Category: SilpoLinks_cig
+  Price: 134.94 ₴
+
+Виріб тютюновий для електричного нагрівання Terea Purple
+  Category: SilpoLinks_cig
+  Price: 700.00 ₴
+
+Сигарети Winston XStyle Silver з фільтром
+  Category: SilpoLinks_cig
+  Price: 135.00 ₴
+
+Сигарети Rothmans Demi Blue з фільтром
+  Category: SilpoLinks_cig
+  Price: 134.93 ₴
+
+Сигарети Sobranie Blue з фільтром
+  Category: SilpoLinks_cig
+  Price: 150.00 ₴
+
+Сигарети L&M Blue Label 40 з фільтром
+  Category: SilpoLinks_cig
+  Price: 250.00 ₴
+
+Сигарети Winston Superline Blue з фільтром
+  Category: SilpoLinks_cig
+  Price: 140.00 ₴
+
+Сигарети Winston XStyle Blue з фільтром
+  Category: SilpoLinks_cig
+  Price: 135.00 ₴
+
+Гумка жувальна Orbit Bubblemint
+  Category: SilpoLinks_cig
+  Price: 19.99 ₴
+

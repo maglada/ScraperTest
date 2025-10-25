@@ -1,0 +1,309 @@
+Total Products: 47
+Generated: 10/25/2025 11:37:00 PM
+================================================================================
+
+[SALE] Гарбуз мускатний
+  Category: SilpoLinks_veg_fruit
+  Old Price: 3.00 ₴
+  New Price: 2.40 ₴
+  Discount: 20%
+  Valid Until: 
+
+[SALE] Помело
+  Category: SilpoLinks_veg_fruit
+  Old Price: 10.39 ₴
+  New Price: 8.00 ₴
+  Discount: 23%
+  Valid Until: 
+
+Томат Azura Черрі мікс
+  Category: SilpoLinks_veg_fruit
+  Price: 179.00 ₴
+
+[SALE] Гарбуз Баттернат
+  Category: SilpoLinks_veg_fruit
+  Old Price: 2.50 ₴
+  New Price: 2.00 ₴
+  Discount: 20%
+  Valid Until: 
+
+[SALE] Перець чилі червоний
+  Category: SilpoLinks_veg_fruit
+  Old Price: 54.99 ₴
+  New Price: 49.49 ₴
+  Discount: 10%
+  Valid Until: 
+
+Кеш'ю смажений
+  Category: SilpoLinks_veg_fruit
+  Price: 179.00 ₴
+
+Мигдаль сушений
+  Category: SilpoLinks_veg_fruit
+  Price: 149.00 ₴
+
+[SALE] Кукурудза цукрова упакована
+  Category: SilpoLinks_veg_fruit
+  Old Price: 79.99 ₴
+  New Price: 70.39 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Манго «Премія»® сушене
+  Category: SilpoLinks_veg_fruit
+  Old Price: 429.00 ₴
+  New Price: 249.00 ₴
+  Discount: 42%
+  Valid Until: 
+
+[SALE] Томат український
+  Category: SilpoLinks_veg_fruit
+  Old Price: 12.10 ₴
+  New Price: 10.89 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Салат Зелена Країна Мікс з руколою листовий
+  Category: SilpoLinks_veg_fruit
+  Old Price: 69.99 ₴
+  New Price: 62.29 ₴
+  Discount: 11%
+  Valid Until: 
+
+Картопля очищена ціла мита в/у
+  Category: SilpoLinks_veg_fruit
+  Price: 7.50 ₴
+
+Морква «Овочиста» мита фасована
+  Category: SilpoLinks_veg_fruit
+  Price: 32.99 ₴
+
+[SALE] Ананас преміум
+  Category: SilpoLinks_veg_fruit
+  Old Price: 199.00 ₴
+  New Price: 179.10 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Гранат
+  Category: SilpoLinks_veg_fruit
+  Old Price: 100 ₴
+  New Price: 11.90 ₴
+  Discount: 
+  Valid Until: 
+
+[SALE] Насіння гарбузове сушене
+  Category: SilpoLinks_veg_fruit
+  Old Price: 99.00 ₴
+  New Price: 83.16 ₴
+  Discount: 16%
+  Valid Until: 
+
+[SALE] Капуста Брюсельска
+  Category: SilpoLinks_veg_fruit
+  Old Price: 44.99 ₴
+  New Price: 40.04 ₴
+  Discount: 11%
+  Valid Until: 
+
+Набір Vita Verde овочевий ШвидкоБорщ
+  Category: SilpoLinks_veg_fruit
+  Price: 94.99 ₴
+
+Манго натуральне сушене
+  Category: SilpoLinks_veg_fruit
+  Price: 119.00 ₴
+
+Суміш Омега-3 горіхів та сухофруктів
+  Category: SilpoLinks_veg_fruit
+  Price: 109.00 ₴
+
+[SALE] Мікс зелені Зелена Країна Кріп та петрушка
+  Category: SilpoLinks_veg_fruit
+  Old Price: 25.69 ₴
+  New Price: 22.09 ₴
+  Discount: 14%
+  Valid Until: 
+
+[SALE] Хурма, Азербайджан
+  Category: SilpoLinks_veg_fruit
+  Old Price: 16.90 ₴
+  New Price: 14.87 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Петрушка Зелена Країна пучок
+  Category: SilpoLinks_veg_fruit
+  Old Price: 29.99 ₴
+  New Price: 24.89 ₴
+  Discount: 17%
+  Valid Until: 
+
+[SALE] Яблуко Ред Чіф відбірне
+  Category: SilpoLinks_veg_fruit
+  Old Price: 7.00 ₴
+  New Price: 6.30 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Лайм
+  Category: SilpoLinks_veg_fruit
+  Old Price: 15.90 ₴
+  New Price: 14.31 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Імбир
+  Category: SilpoLinks_veg_fruit
+  Old Price: 15.90 ₴
+  New Price: 14.31 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] шт
+  Category: SilpoLinks_veg_fruit
+  Old Price: 69.99 ₴
+  New Price: 62.29 ₴
+  Discount: 11%
+  Valid Until: 
+
+[SALE] Картопля Baby LOU свіжа мита size M
+  Category: SilpoLinks_veg_fruit
+  Old Price: 67.99 ₴
+  New Price: 61.19 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Капуста квашена «Грінвіль» з морквою
+  Category: SilpoLinks_veg_fruit
+  Old Price: 89.99 ₴
+  New Price: 79.19 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Гриби печериці «Перша хвиля» фасовані
+  Category: SilpoLinks_veg_fruit
+  Old Price: 70.49 ₴
+  New Price: 62.03 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Хумус Hungry Papa класичний
+  Category: SilpoLinks_veg_fruit
+  Old Price: 78.99 ₴
+  New Price: 71.09 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Пасіонфрут
+  Category: SilpoLinks_veg_fruit
+  Old Price: 39.90 ₴
+  New Price: 35.91 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Капуста квашена
+  Category: SilpoLinks_veg_fruit
+  Old Price: 15.40 ₴
+  New Price: 13.86 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Салат листовий Зелена Країна свіжий мікс з машем митий
+  Category: SilpoLinks_veg_fruit
+  Old Price: 64.99 ₴
+  New Price: 58.49 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Груша Коник Еліот
+  Category: SilpoLinks_veg_fruit
+  Old Price: 8.95 ₴
+  New Price: 7.97 ₴
+  Discount: 11%
+  Valid Until: 
+
+[SALE] Салат Зелена Країна Бебі мікс листовий
+  Category: SilpoLinks_veg_fruit
+  Old Price: 69.99 ₴
+  New Price: 62.29 ₴
+  Discount: 11%
+  Valid Until: 
+
+[SALE] Салат Пучок-Свіжачок Шпинат
+  Category: SilpoLinks_veg_fruit
+  Old Price: 149.00 ₴
+  New Price: 134.10 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Томат Green Agro чорний
+  Category: SilpoLinks_veg_fruit
+  Old Price: 94.99 ₴
+  New Price: 84.54 ₴
+  Discount: 11%
+  Valid Until: 
+
+[SALE] Томат Green Agro Сливка жовта
+  Category: SilpoLinks_veg_fruit
+  Old Price: 75.99 ₴
+  New Price: 67.63 ₴
+  Discount: 11%
+  Valid Until: 
+
+[SALE] Морква Моркішка Shantane свіжа мита
+  Category: SilpoLinks_veg_fruit
+  Old Price: 49.49 ₴
+  New Price: 44.54 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Салат «Премія»® з буряка
+  Category: SilpoLinks_veg_fruit
+  Old Price: 66.49 ₴
+  New Price: 59.84 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Смузі Feels good з апельсиновим соком, яблуком, селерою, шпинатом та імбиром
+  Category: SilpoLinks_veg_fruit
+  Old Price: 81.99 ₴
+  New Price: 71.33 ₴
+  Discount: 13%
+  Valid Until: 
+
+[SALE] Цибуля мікс кольорів та смаків фасована
+  Category: SilpoLinks_veg_fruit
+  Old Price: 39.99 ₴
+  New Price: 34.79 ₴
+  Discount: 13%
+  Valid Until: 
+
+[SALE] Картопля Матуся Потуся Відбірна
+  Category: SilpoLinks_veg_fruit
+  Old Price: 124.00 ₴
+  New Price: 109.12 ₴
+  Discount: 12%
+  Valid Until: 
+
+[SALE] Гриби Freshmore шимеджі коричневі
+  Category: SilpoLinks_veg_fruit
+  Old Price: 79.99 ₴
+  New Price: 71.99 ₴
+  Discount: 10%
+  Valid Until: 
+
+[SALE] Кеш'ю «Премія»® смажені ядра горіхів
+  Category: SilpoLinks_veg_fruit
+  Old Price: 79.99 ₴
+  New Price: 69.59 ₴
+  Discount: 13%
+  Valid Until: 
+
+[SALE] Фалафель Bonner смажений класичний
+  Category: SilpoLinks_veg_fruit
+  Old Price: 78.74 ₴
+  New Price: 70.08 ₴
+  Discount: 11%
+  Valid Until: 
+

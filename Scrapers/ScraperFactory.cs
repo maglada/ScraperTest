@@ -30,8 +30,14 @@ namespace ProductScraper
                 //{ "NovusLinks_halfmade", (cfg, cat) => new ProductScraperBread(cfg, cat) },
                 //{ "NovusLinks_veg_fruit", (cfg, cat) => new ProductScraperBread(cfg, cat) },
 
-                // ATB: generic entry — file names like "AtbLinks.txt" or "AtbLinks_veg.txt"
-                { "ATBLinks", (cfg, cat) => new AtbProductScraper(cfg, cat) },
+                // Silpo: generic entry — file names like "SilpoLinks.txt" or "SilpoLinks_veg.txt"
+                { "SilpoLinks_veg_fruit", (cfg, cat) => new SilpoProductScraper(cfg, cat) },
+                { "SilpoLinks_cig", (cfg, cat) => new SilpoProductScraper(cfg, cat) },
+                // TODO fix the issue here { "SilpoLinks_egg", (cfg, cat) => new SilpoProductScraper(cfg, cat) },
+                // TODO fix the same issue(gets gram as price, price as new price) { "SilpoLinks_fish", (cfg, cat) => new SilpoProductScraper(cfg, cat) },
+                // TODO issue presists. tegs everythong as sale { "SilpoLinks_bread", (cfg, cat) => new SilpoProductScraper(cfg, cat) },
+                // TODO same issue { "SilpoLinks_meat", (cfg, cat) => new SilpoProductScraper(cfg, cat) },
+                // TODO issue with prices for bulk + grams { "SilpoLinks_halfmade", (cfg, cat) => new SilpoProductScraper(cfg, cat) },
 
                 // Add more mappings here as needed for each category
             };
