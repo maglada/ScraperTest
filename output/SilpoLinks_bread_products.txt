@@ -1,333 +1,261 @@
 Total Products: 47
-Generated: 10/26/2025 12:18:08 AM
+Generated: 10/26/2025 4:49:57 PM
 ================================================================================
 
-[SALE] Хліб Boulangerie «Фітнес»
-  Category: SilpoLinks_bread
-  Old Price: 39.99 ₴
-  New Price: 29.99 ₴
-  Discount: 25%
-  Valid Until: 
-
-[SALE] Булка подова Французька
+[SALE] Булка подова Французька (400г)
   Category: SilpoLinks_bread
   Old Price: 39.89 ₴
   New Price: 29.92 ₴
-  Discount: 25%
+  Discount: - 25%
   Valid Until: 
 
-[SALE] Слойка з індичкою та сиром фета
+[SALE] Хліб Boulangerie «Фітнес» (400г)
   Category: SilpoLinks_bread
-  Old Price: 74.99 ₴
-  New Price: 54.74 ₴
-  Discount: 27%
+  Old Price: 39.99 ₴
+  New Price: 29.99 ₴
+  Discount: - 25%
   Valid Until: 
 
-[SALE] Гриссіні з пармезаном
+[SALE] Чіабата бездріжджова (250г)
+  Category: SilpoLinks_bread
+  Old Price: 38.59 ₴
+  New Price: 30.10 ₴
+  Discount: - 22%
+  Valid Until: 
+
+[SALE] Гриссіні з пармезаном (100г)
   Category: SilpoLinks_bread
   Old Price: 44.90 ₴
   New Price: 35.92 ₴
-  Discount: 20%
+  Discount: - 20%
   Valid Until: 
 
-[SALE] Хліб подовий житньо-пшеничний мультизерновий
+[SALE] Слойка з індичкою та сиром фета (200г)
   Category: SilpoLinks_bread
-  Old Price: 15.29 ₴
-  New Price: 11.93 ₴
-  Discount: 22%
+  Old Price: 74.99 ₴
+  New Price: 54.74 ₴
+  Discount: - 27%
   Valid Until: 
 
-[SALE] Хліб «Крафтяр» «Скандинавський»
+[SALE] Хліб «Крафтяр» «Скандинавський» (100г)
   Category: SilpoLinks_bread
   Old Price: 11.40 ₴
   New Price: 9.23 ₴
-  Discount: 19%
+  Discount: - 19%
   Valid Until: 
 
-[SALE] Хліб Київський гречаний
+[SALE] Хліб Київський гречаний (100г)
   Category: SilpoLinks_bread
   Old Price: 12.90 ₴
   New Price: 10.32 ₴
-  Discount: 20%
+  Discount: - 20%
   Valid Until: 
 
-[SALE] Роліні з тіста Філо з курячим м'ясом і телятиною
+[SALE] Хліб подовий житньо-пшеничний мультизерновий (100г)
   Category: SilpoLinks_bread
-  Old Price: 29.99 ₴
-  New Price: 24.89 ₴
-  Discount: 17%
+  Old Price: 15.29 ₴
+  New Price: 11.93 ₴
+  Discount: - 22%
   Valid Until: 
 
-[SALE] Сирник Львівський
+[SALE] Сирник Львівський (100г)
   Category: SilpoLinks_bread
   Old Price: 61.85 ₴
   New Price: 47.00 ₴
-  Discount: 24%
+  Discount: - 24%
   Valid Until: 
 
-[SALE] Слойка з шинкою
+[SALE] Хліб 100% житній «Фінський» міні (300г)
+  Category: SilpoLinks_bread
+  Old Price: 43.29 ₴
+  New Price: 35.50 ₴
+  Discount: - 18%
+  Valid Until: 
+
+[SALE] Роліні з тіста Філо з курячим м'ясом і телятиною (90г)
+  Category: SilpoLinks_bread
+  Old Price: 29.99 ₴
+  New Price: 24.89 ₴
+  Discount: - 17%
+  Valid Until: 
+
+[SALE] Лаваш з м'ясом асорті (200г)
+  Category: SilpoLinks_bread
+  Old Price: 44.99 ₴
+  New Price: 37.99 ₴
+  Discount: - 16%
+  Valid Until: 
+
+[SALE] Пиріжок з капустою і грибами (90г)
+  Category: SilpoLinks_bread
+  Old Price: 26.99 ₴
+  New Price: 19.16 ₴
+  Discount: - 29%
+  Valid Until: 
+
+[SALE] Слойка з шинкою (200г)
   Category: SilpoLinks_bread
   Old Price: 82.49 ₴
   New Price: 65.17 ₴
-  Discount: 21%
+  Discount: - 21%
   Valid Until: 
 
-[SALE] Хліб подовий Паризький
+[SALE] Хліб подовий Паризький (100г)
   Category: SilpoLinks_bread
   Old Price: 11.90 ₴
   New Price: 9.52 ₴
-  Discount: 20%
+  Discount: - 20%
   Valid Until: 
 
-[SALE] Сендвіч з баликом
+[SALE] Сендвіч з баликом (215г)
   Category: SilpoLinks_bread
   Old Price: 69.99 ₴
   New Price: 55.29 ₴
-  Discount: 21%
+  Discount: - 21%
   Valid Until: 
 
-[SALE] Калач «Волинський»
+Булочка Равлик з вишневою начинкою (100г)
   Category: SilpoLinks_bread
-  Old Price: 54.99 ₴
-  New Price: 45.09 ₴
-  Discount: 18%
-  Valid Until: 
+  Price: 37.99 ₴
 
-[SALE] Соломка KBV Magic sticks глазур зі смаком шоколаду
+[SALE] Соломка KBV Magic sticks глазур зі смаком полуниці (60г)
   Category: SilpoLinks_bread
   Old Price: 21.99 ₴
   New Price: 17.99 ₴
-  Discount: 18%
+  Discount: - 18%
   Valid Until: 
 
-[SALE] Сушки БКК міні
+[SALE] Калач «Волинський» (300г)
+  Category: SilpoLinks_bread
+  Old Price: 54.99 ₴
+  New Price: 45.09 ₴
+  Discount: - 18%
+  Valid Until: 
+
+[SALE] Соломка KBV Magic sticks глазур зі смаком шоколаду (60г)
+  Category: SilpoLinks_bread
+  Old Price: 21.99 ₴
+  New Price: 17.99 ₴
+  Discount: - 18%
+  Valid Until: 
+
+[SALE] Сушки БКК міні (250г)
   Category: SilpoLinks_bread
   Old Price: 44.79 ₴
   New Price: 35.99 ₴
-  Discount: 20%
+  Discount: - 20%
   Valid Until: 
 
-[SALE] Сушки БКК «Флора» малютка
+[SALE] Рулет з повидлом (200г)
+  Category: SilpoLinks_bread
+  Old Price: 36.99 ₴
+  New Price: 27.74 ₴
+  Discount: - 25%
+  Valid Until: 
+
+[SALE] Сушки БКК «Флора» малютка (300г)
   Category: SilpoLinks_bread
   Old Price: 51.49 ₴
   New Price: 41.99 ₴
-  Discount: 18%
+  Discount: - 18%
   Valid Until: 
 
-[SALE] Багет подовий Французький Люкс
+Багет подовий Французький Люкс (300г)
   Category: SilpoLinks_bread
-  Old Price: 300 ₴
-  New Price: 37.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 37.99 ₴
 
-[SALE] Багет подовий гречаний
+Багет подовий гречаний (300г)
   Category: SilpoLinks_bread
-  Old Price: 300 ₴
-  New Price: 47.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 47.99 ₴
 
-[SALE] Багет «Крафтяр» подовий гречаний міні
+[SALE] Багет «Крафтяр» подовий гречаний міні (160г)
   Category: SilpoLinks_bread
   Old Price: 26.99 ₴
   New Price: 19.99 ₴
-  Discount: 26%
+  Discount: - 26%
   Valid Until: 
 
-[SALE] Багет подовий Прованський з сиром
+Багет подовий Прованський з сиром (300г)
   Category: SilpoLinks_bread
-  Old Price: 300 ₴
-  New Price: 47.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 47.99 ₴
 
-[SALE] Багет подовий міні
+Багет подовий міні (125г)
   Category: SilpoLinks_bread
-  Old Price: 125 ₴
-  New Price: 18.79 ₴
-  Discount: 
-  Valid Until: 
+  Price: 18.79 ₴
 
-[SALE] Сендвіч з моцареллою
+Сендвіч з бужениною (200г)
   Category: SilpoLinks_bread
-  Old Price: 225 ₴
-  New Price: 79.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 69.99 ₴
 
-[SALE] Сендвіч з бужениною
+Хліб подовий Альзас солодовий (100г)
   Category: SilpoLinks_bread
-  Old Price: 200 ₴
-  New Price: 69.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 11.90 ₴
 
-[SALE] Хліб подовий Альзас солодовий
+Багет «Крафтяр» «Софіївський» подовий (220г)
   Category: SilpoLinks_bread
-  Old Price: 100 ₴
-  New Price: 11.90 ₴
-  Discount: 
-  Valid Until: 
+  Price: 27.99 ₴
 
-[SALE] Пиріжок з м'ясом
+Булочки «Крафтяр» роли з корицею (100г)
   Category: SilpoLinks_bread
-  Old Price: 90 ₴
-  New Price: 32.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 36.90 ₴
 
-[SALE] Штрудель з маком
+Пиріжок з м'ясом (90г)
   Category: SilpoLinks_bread
-  Old Price: 100 ₴
-  New Price: 27.39 ₴
-  Discount: 
-  Valid Until: 
+  Price: 32.99 ₴
 
-[SALE] Піде з сиром
+Штрудель з маком (100г)
   Category: SilpoLinks_bread
-  Old Price: 230 ₴
-  New Price: 99.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 27.39 ₴
 
-[SALE] Кекс гарбузовий з журавлиною
+Піде з сиром (230г)
   Category: SilpoLinks_bread
-  Old Price: 100 ₴
-  New Price: 39.90 ₴
-  Discount: 
-  Valid Until: 
+  Price: 99.00 ₴
 
-[SALE] Лаваш з сиром та зеленню
+Кекс гарбузовий з журавлиною (100г)
   Category: SilpoLinks_bread
-  Old Price: 200 ₴
-  New Price: 54.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 39.90 ₴
 
-[SALE] Сендвіч гречаний з тунцем
+Лаваш з сиром та зеленню (200г)
   Category: SilpoLinks_bread
-  Old Price: 265 ₴
-  New Price: 119.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 54.99 ₴
 
-[SALE] Багет подовий з часником
+Хліб подовий Гарбузик (420г)
   Category: SilpoLinks_bread
-  Old Price: 150 ₴
-  New Price: 20.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 69.99 ₴
 
-[SALE] Хліб подовий Гарбузик
+Пиріг Грецький (100г)
   Category: SilpoLinks_bread
-  Old Price: 420 ₴
-  New Price: 69.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 39.90 ₴
 
-[SALE] Сирник брауні з вишнею
+Соломка «Премія»® з гімалайською сіллю (200г)
   Category: SilpoLinks_bread
-  Old Price: 100 ₴
-  New Price: 54.89 ₴
-  Discount: 
-  Valid Until: 
+  Price: 33.99 ₴
 
-[SALE] Соломка «Премія»® з гімалайською сіллю
+Багет подовий з часником (150г)
   Category: SilpoLinks_bread
-  Old Price: 200 ₴
-  New Price: 33.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 20.99 ₴
 
-[SALE] Пиріг пісочний з яблуком
+Пиріг пісочний з яблуком (250г)
   Category: SilpoLinks_bread
-  Old Price: 250 ₴
-  New Price: 99.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 99.00 ₴
 
-[SALE] Лаваш з курячим м'ясом та грибами
+Сирник брауні з вишнею (100г)
   Category: SilpoLinks_bread
-  Old Price: 200 ₴
-  New Price: 54.99 ₴
-  Discount: 
-  Valid Until: 
+  Price: 54.89 ₴
 
-[SALE] Пряники «Премія»® у цукровій глазурі
+Сендвіч з моцареллою (225г)
   Category: SilpoLinks_bread
-  Old Price: 74.99 ₴
-  New Price: 59.99 ₴
-  Discount: 20%
-  Valid Until: 
+  Price: 79.99 ₴
 
-[SALE] Хліб «Крафтяр» подовий з куркумою та родзинками
+Багет подовий Гарбузет (320г)
   Category: SilpoLinks_bread
-  Old Price: 100 ₴
-  New Price: 17.90 ₴
-  Discount: 
-  Valid Until: 
+  Price: 44.99 ₴
 
-[SALE] Пряники «Премія»® у молочному шоколаді
+Булочки Гарбузулочки (100г)
   Category: SilpoLinks_bread
-  Old Price: 199.00 ₴
-  New Price: 159.00 ₴
-  Discount: 20%
-  Valid Until: 
+  Price: 36.90 ₴
 
-[SALE] Булочки Гарбузулочки
+Сендвіч гречаний з тунцем (265г)
   Category: SilpoLinks_bread
-  Old Price: 100 ₴
-  New Price: 36.90 ₴
-  Discount: 
-  Valid Until: 
-
-[SALE] Штрудель з маком, родзинками та цукатами
-  Category: SilpoLinks_bread
-  Old Price: 100 ₴
-  New Price: 41.90 ₴
-  Discount: 
-  Valid Until: 
-
-[SALE] Сирник Сан-Себастьян
-  Category: SilpoLinks_bread
-  Old Price: 100 ₴
-  New Price: 54.90 ₴
-  Discount: 
-  Valid Until: 
-
-[SALE] Рулетики «Крафтяр» з маком та лимоном в упаковці
-  Category: SilpoLinks_bread
-  Old Price: 99.00 ₴
-  New Price: 83.99 ₴
-  Discount: 15%
-  Valid Until: 
-
-[SALE] Пиріг Солодкі яблука
-  Category: SilpoLinks_bread
-  Old Price: 165 ₴
-  New Price: 64.99 ₴
-  Discount: 
-  Valid Until: 
-
-[SALE] Слойка Кошик з куркою та грибами
-  Category: SilpoLinks_bread
-  Old Price: 180 ₴
-  New Price: 89.99 ₴
-  Discount: 
-  Valid Until: 
-
-[SALE] Печиво пісочне «Премія»® Тарталетка кругла середня
-  Category: SilpoLinks_bread
-  Old Price: 300 ₴
-  New Price: 169.00 ₴
-  Discount: 
-  Valid Until: 
-
-[SALE] Брауні Гарбузове
-  Category: SilpoLinks_bread
-  Old Price: 100 ₴
-  New Price: 59.90 ₴
-  Discount: 
-  Valid Until: 
+  Price: 119.00 ₴
 

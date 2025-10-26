@@ -1,282 +1,249 @@
 Total Products: 47
-Generated: 10/26/2025 12:27:05 AM
+Generated: 10/26/2025 4:49:57 PM
 ================================================================================
 
-[SALE] Котлета BeFoodie По-київськи з часником та травами
+Котлета BeFoodie По-київськи з часником та травами (500г)
   Category: SilpoLinks_halfmade
-  Old Price: 500 ₴
-  New Price: 349.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 349.00 ₴
 
-[SALE] Пельмені «Левада» з м'ясом індички
+[SALE] Пельмені «Левада» з м'ясом індички (400г)
   Category: SilpoLinks_halfmade
   Old Price: 114.00 ₴
   New Price: 54.99 ₴
-  Discount: 52%
+  Discount: - 52%
   Valid Until: 
 
-[SALE] Канелоні Alberto зі шпинатом
+[SALE] Вареники Три ведмеді з картоплею та вершками (800г)
   Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 259.00 ₴
-  Discount: 
+  Old Price: 149.00 ₴
+  New Price: 82.90 ₴
+  Discount: - 44%
   Valid Until: 
 
-[SALE] Пельмені Три ведмеді зі свининою та яловичиною
+[SALE] Пельмені Три ведмеді зі свининою та яловичиною (800г)
   Category: SilpoLinks_halfmade
   Old Price: 301.00 ₴
   New Price: 179.00 ₴
-  Discount: 41%
+  Discount: - 41%
   Valid Until: 
 
-[SALE] Вареники Три ведмеді з картоплею та вершками
-  Category: SilpoLinks_halfmade
-  Old Price: 149.00 ₴
-  New Price: 119.00 ₴
-  Discount: 20%
-  Valid Until: 
-
-[SALE] Вареники «Три ведмеді» з картоплею та беконом
+[SALE] Вареники «Три ведмеді» з картоплею та беконом (800г)
   Category: SilpoLinks_halfmade
   Old Price: 154.00 ₴
   New Price: 139.00 ₴
-  Discount: 10%
+  Discount: - 10%
   Valid Until: 
 
-[SALE] Пельмені Три ведмеді Мішутка з індичкою та вершками
+Пельмені Три ведмеді Мішутка з індичкою та вершками (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 168.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 168.00 ₴
 
-Млинці «Левада» з солодким сиром
+Млинці «Левада» з солодким сиром (310г)
   Category: SilpoLinks_halfmade
   Price: 63.49 ₴
 
-Млинці «Левада» з курячим м'ясом
+Млинці «Левада» з курячим м'ясом (310г)
   Category: SilpoLinks_halfmade
   Price: 67.49 ₴
 
-[SALE] Пельмені Три ведмеді Мішутка з м'ясом курчат
+Пельмені Три ведмеді Мішутка з м'ясом курчат (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 148.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 148.00 ₴
 
-[SALE] Пельмені Три ведмеді Мішутка з телятиною та вершками
+Пельмені Три ведмеді Мішутка з телятиною та вершками (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 168.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 168.00 ₴
 
-Круасани Schulstad
-  Category: SilpoLinks_halfmade
-  Price: 319.00 ₴
-
-[SALE] Пельмені «Три Ведмеді» «Фірмові»
+[SALE] Пельмені «Три Ведмеді» «Фірмові» (800г)
   Category: SilpoLinks_halfmade
   Old Price: 239.00 ₴
   New Price: 189.00 ₴
-  Discount: 21%
+  Discount: - 21%
   Valid Until: 
 
-[SALE] Вареники Три ведмеді Мішутка з картоплею та вершками
-  Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 80.00 ₴
-  Discount: 
-  Valid Until: 
-
-від 2 шт
+Картопля Aviko фрі зигзаг (450г)
   Category: SilpoLinks_halfmade
   Price: 99.00 ₴
 
-[SALE] Пельмені Levada Котигорошко
-  Category: SilpoLinks_halfmade
-  Old Price: 109.00 ₴
-  New Price: 69.90 ₴
-  Discount: 36%
-  Valid Until: 
-
-Сирники «Хуторок»
-  Category: SilpoLinks_halfmade
-  Price: 189.00 ₴
-
-[SALE] Чікен боли Ходорівський м'ясокомбінат заморожені
+[SALE] Чікен боли Ходорівський м'ясокомбінат заморожені (400г)
   Category: SilpoLinks_halfmade
   Old Price: 159.00 ₴
   New Price: 89.99 ₴
-  Discount: 43%
+  Discount: - 43%
   Valid Until: 
 
-[SALE] Пельмені Levada Кожум'яка
+Стріпси курячі Ходорівський м'ясокомбінат заморожені (390г)
+  Category: SilpoLinks_halfmade
+  Price: 199.00 ₴
+
+Вареники Три ведмеді Мішутка з картоплею та вершками (400г)
+  Category: SilpoLinks_halfmade
+  Price: 80.00 ₴
+
+[SALE] Нагетси Ходорівський м'ясокомбінат заморожені (390г)
+  Category: SilpoLinks_halfmade
+  Old Price: 122.00 ₴
+  New Price: 69.99 ₴
+  Discount: - 43%
+  Valid Until: 
+
+[SALE] Пельмені Levada Кожум'яка (600г)
   Category: SilpoLinks_halfmade
   Old Price: 109.00 ₴
   New Price: 69.90 ₴
-  Discount: 36%
+  Discount: - 36%
   Valid Until: 
 
-Стріпси курячі Ходорівський м'ясокомбінат заморожені
-  Category: SilpoLinks_halfmade
-  Price: 199.00 ₴
-
-[SALE] Ньоккі Voltan Pasta Fresca
-  Category: SilpoLinks_halfmade
-  Old Price: 83.49 ₴
-  New Price: 59.99 ₴
-  Discount: 28%
-  Valid Until: 
-
-Пельмені Ситий двір заморожені
-  Category: SilpoLinks_halfmade
-  Price: 128.00 ₴
-
-Нагетси Ходорівський м'ясокомбінат заморожені
-  Category: SilpoLinks_halfmade
-  Price: 122.00 ₴
-
-Котлети курячі Ходорівський м'ясокомбінат
+Сирники «Хуторок» (500г)
   Category: SilpoLinks_halfmade
   Price: 189.00 ₴
 
-[SALE] Круасан «Рудь» на вершковому маслі
+[SALE] Ньоккі Voltan Pasta Fresca (500г)
+  Category: SilpoLinks_halfmade
+  Old Price: 83.49 ₴
+  New Price: 59.99 ₴
+  Discount: - 28%
+  Valid Until: 
+
+[SALE] Пельмені Levada Котигорошко (600г)
+  Category: SilpoLinks_halfmade
+  Old Price: 109.00 ₴
+  New Price: 69.90 ₴
+  Discount: - 36%
+  Valid Until: 
+
+Котлети курячі Ходорівський м'ясокомбінат (480г)
+  Category: SilpoLinks_halfmade
+  Price: 189.00 ₴
+
+[SALE] Круасан «Рудь» на вершковому маслі (6*70г)
   Category: SilpoLinks_halfmade
   Old Price: 194.00 ₴
   New Price: 139.00 ₴
-  Discount: 28%
+  Discount: - 28%
   Valid Until: 
 
-[SALE] Вареники «Премія»® з вишнею
+Пельмені Ситий двір заморожені (800г)
+  Category: SilpoLinks_halfmade
+  Price: 128.00 ₴
+
+Пельмені Три ведмеді Мішутка Троє поросят зі свининою та м'ясом курки (400г)
+  Category: SilpoLinks_halfmade
+  Price: 155.00 ₴
+
+[SALE] Вареники «Премія»® з вишнею (400г)
   Category: SilpoLinks_halfmade
   Old Price: 134.00 ₴
   New Price: 94.99 ₴
-  Discount: 29%
+  Discount: - 29%
   Valid Until: 
 
-[SALE] Пельмені Три ведмеді Мішутка Троє поросят зі свининою та м'ясом курки
+Вареники «Три Ведмеді» з капустою (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 155.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 92.49 ₴
 
-Картопля Aviko діпи
-  Category: SilpoLinks_halfmade
-  Price: 149.00 ₴
-
-Пельмені Мама готувала зі свинини і яловичини
-  Category: SilpoLinks_halfmade
-  Price: 269.00 ₴
-
-Вареники Levada з капустою
-  Category: SilpoLinks_halfmade
-  Price: 54.99 ₴
-
-[SALE] Пельмені «Левада» з молодою яловичиною
+[SALE] Пельмені «Левада» з молодою яловичиною (0,4кг)
   Category: SilpoLinks_halfmade
   Old Price: 119.00 ₴
   New Price: 54.99 ₴
-  Discount: 54%
+  Discount: - 54%
   Valid Until: 
 
-Кільця цибулеві Aviko
+Деруни Aviko Pati Parts картопляні (600г)
   Category: SilpoLinks_halfmade
   Price: 159.00 ₴
 
-Деруни Aviko Pati Parts картопляні
-  Category: SilpoLinks_halfmade
-  Price: 159.00 ₴
-
-[SALE] Млинці Мама готувала з шинкою та моцарелою
+[SALE] Млинці Мама готувала з шинкою та моцарелою (600г)
   Category: SilpoLinks_halfmade
   Old Price: 369.00 ₴
   New Price: 279.00 ₴
-  Discount: 24%
+  Discount: - 24%
   Valid Until: 
 
-[SALE] Нагетси BeFoodie Преміум курячі швидкозаморожені
+[SALE] Нагетси BeFoodie Преміум курячі швидкозаморожені (500г)
   Category: SilpoLinks_halfmade
   Old Price: 449.00 ₴
-  New Price: 329.00 ₴
-  Discount: 27%
+  New Price: 249.00 ₴
+  Discount: - 45%
   Valid Until: 
 
-Вареники «Левада» з картоплею та грибами
+Пельмені Мама готувала зі свинини і яловичини (600г)
+  Category: SilpoLinks_halfmade
+  Price: 269.00 ₴
+
+Картопля Aviko діпи (600г)
+  Category: SilpoLinks_halfmade
+  Price: 149.00 ₴
+
+Кільця цибулеві Aviko (450г)
+  Category: SilpoLinks_halfmade
+  Price: 159.00 ₴
+
+Вареники «Левада» з картоплею та грибами (800г)
   Category: SilpoLinks_halfmade
   Price: 109.00 ₴
 
-[SALE] Пельмені Laska «Ма-ню-ням» з м'ясом курки та телятиною
-  Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 139.00 ₴
-  Discount: 
-  Valid Until: 
-
-[SALE] Тальятелле Pasta Fresca Voltan
-  Category: SilpoLinks_halfmade
-  Old Price: 99.00 ₴
-  New Price: 69.99 ₴
-  Discount: 29%
-  Valid Until: 
-
-[SALE] Вареники «Три Ведмеді» з капустою
-  Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 92.49 ₴
-  Discount: 
-  Valid Until: 
-
-[SALE] Тортеллоні Emma Giordany з рікотою та шпинатом
+[SALE] Тортеллоні Emma Giordany з рікотою та шпинатом (250г)
   Category: SilpoLinks_halfmade
   Old Price: 129.00 ₴
   New Price: 92.99 ₴
-  Discount: 28%
+  Discount: - 28%
   Valid Until: 
 
-[SALE] Вареники Laska з картоплею та смаженою цибулею
+[SALE] Тальятелле Pasta Fresca Voltan (250г)
   Category: SilpoLinks_halfmade
-  Old Price: 900 ₴
-  New Price: 149.00 ₴
-  Discount: 
+  Old Price: 99.00 ₴
+  New Price: 69.99 ₴
+  Discount: - 29%
   Valid Until: 
 
-[SALE] Гьодза Asian Xata з яловичиною та цибулею
+Пельмені Laska «Ма-ню-ням» з м'ясом курки та телятиною (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 800 ₴
-  New Price: 299.00 ₴
-  Discount: 
+  Price: 139.00 ₴
+
+Вареники Laska з картоплею та смаженою цибулею (900г)
+  Category: SilpoLinks_halfmade
+  Price: 149.00 ₴
+
+Вареники Levada з капустою (400г)
+  Category: SilpoLinks_halfmade
+  Price: 54.99 ₴
+
+[SALE] Гьодза Asian Xata з яловичиною та цибулею (800г)
+  Category: SilpoLinks_halfmade
+  Old Price: 299.00 ₴
+  New Price: 189.00 ₴
+  Discount: - 37%
   Valid Until: 
 
-Рис Garde Manger з морепродуктами
+Сирники Makey зі шпинатом солоні (300г)
   Category: SilpoLinks_halfmade
-  Price: 199.00 ₴
+  Price: 159.00 ₴
 
-[SALE] Тортеллоні Emma Giordany 4 сири
+Млинці Лавка традицій Старий Порицьк з солодким сиром (500г)
+  Category: SilpoLinks_halfmade
+  Price: 289.00 ₴
+
+Пельмені Рудь Супер (800г)
+  Category: SilpoLinks_halfmade
+  Price: 189.00 ₴
+
+Сирники Makey Premium смажені (300г)
+  Category: SilpoLinks_halfmade
+  Price: 154.00 ₴
+
+[SALE] Тортеллоні Emma Giordany 4 сири (250г)
   Category: SilpoLinks_halfmade
   Old Price: 129.00 ₴
   New Price: 104.00 ₴
-  Discount: 19%
+  Discount: - 19%
   Valid Until: 
 
-[SALE] Пельмені Рудь Супер
+Різото Garde Manger з грибами (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 800 ₴
-  New Price: 189.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 99.00 ₴
 
-[SALE] Млинці Лавка традицій Старий Порицьк з солодким сиром
+Рис Garde Manger з морепродуктами (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 500 ₴
-  New Price: 289.00 ₴
-  Discount: 
-  Valid Until: 
-
-Сирники Makey Premium смажені
-  Category: SilpoLinks_halfmade
-  Price: 154.00 ₴
+  Price: 199.00 ₴
 

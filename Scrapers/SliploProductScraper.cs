@@ -122,69 +122,109 @@ namespace ProductScraper
                     }
                     else
                     {
-                        var beforeCount = products.Count;
+                        int beforeCount = products.Count;
                         foreach (var el in els)
                         {
                             try
                             {
-                                var text = (await el.InnerTextAsync())?.Trim();
-                                if (string.IsNullOrWhiteSpace(text)) continue;
-
- // Parse structured info from the element text
                                 var prod = new Product { Category = _category };
 
-                                // Normalize whitespace and join lines for regex
-                                var normalized = Regex.Replace(text, @"\r\n|\r|\n", " ").Trim();
+                                // Get product name
+                                var nameEl = await el.QuerySelectorAsync(".product-card__title");
+                                prod.Name = (await nameEl?.InnerTextAsync())?.Trim() ?? "";
 
-                                // Capture all currency-like numbers (e.g. "2.40", "3,00")
-                                var moneyMatches = Regex.Matches(normalized, @"(\d+(?:[.,]\d+)?)\s*(?:грн|₴)?", RegexOptions.IgnoreCase);
-                                if (moneyMatches.Count > 0)
+                                // Get the price container
+                                var priceContainer = await el.QuerySelectorAsync(".product-card-price");
+                                
+                                if (priceContainer != null)
                                 {
-                                    // First match -> price
-                                    var pStr = moneyMatches[0].Groups[1].Value.Replace(',', '.');
-                                    if (decimal.TryParse(pStr, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out var p))
-                                        prod.Price = p;
+                                    // Get current price (retail price)
+                                    var priceEl = await priceContainer.QuerySelectorAsync(".product-card-price__displayPrice");
+                                    if (priceEl != null)
+                                    {
+                                        var priceText = (await priceEl.InnerTextAsync())?.Trim() ?? "";
+                                        var price = Regex.Match(priceText, @"(\d+(?:[.,]\d+)?)");
+                                        if (price.Success && decimal.TryParse(price.Groups[1].Value.Replace(',', '.'),
+                                            NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out var p))
+                                        {
+                                            prod.Price = p;
+                                        }
+                                    }
+
+                                    // Check for bulk price
+                                    var bulkPriceEl = await priceContainer.QuerySelectorAsync(".product-card-offer__price");
+                                    if (bulkPriceEl != null)
+                                    {
+                                        var bulkPriceText = (await bulkPriceEl.InnerTextAsync())?.Trim() ?? "";
+                                        var bulkPrice = Regex.Match(bulkPriceText, @"(\d+(?:[.,]\d+)?)");
+                                        if (bulkPrice.Success && decimal.TryParse(bulkPrice.Groups[1].Value.Replace(',', '.'),
+                                            NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out var bp))
+                                        {
+                                            prod.BulkPrice = bp;
+                                            prod.IsBulk = true;
+                                            
+                                            // Get bulk quantity requirement (optional)
+                                            var bulkValueEl = await priceContainer.QuerySelectorAsync(".product-card-offer__value");
+                                            if (bulkValueEl != null && _config.EnableLogging)
+                                            {
+                                                var bulkValueText = (await bulkValueEl.InnerTextAsync())?.Trim() ?? "";
+                                                Console.WriteLine($"  Bulk offer: {bulkValueText} at {bp} грн");
+                                            }
+                                        }
+                                    }
                                 }
 
-                                // If there is a second money match, treat it as old price
-                                if (moneyMatches.Count > 1)
+                                // Get old price
+                                var oldPriceEl = await el.QuerySelectorAsync(".product-card-price__displayOldPrice");
+                                if (oldPriceEl != null)
                                 {
-                                    var opStr = moneyMatches[1].Groups[1].Value.Replace(',', '.');
-                                    if (decimal.TryParse(opStr, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out var op))
+                                    var oldPriceText = (await oldPriceEl.InnerTextAsync())?.Trim() ?? "";
+                                    var oldPrice = Regex.Match(oldPriceText, @"(\d+(?:[.,]\d+)?)");
+                                    if (oldPrice.Success && decimal.TryParse(oldPrice.Groups[1].Value.Replace(',', '.'),
+                                        NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out var op))
+                                    {
                                         prod.OldPrice = op;
+                                        prod.IsOnSale = op > prod.Price;
+                                    }
                                 }
 
-                                // Discount like "- 20%" or "20%"
-                                var discMatch = Regex.Match(normalized, @"-?\s*(\d{1,3}%|\d+\s?%|\d+%)");
-                                if (discMatch.Success) prod.Discount = discMatch.Groups[1].Value.Trim();
+                                // Get discount
+                                var discountEl = await el.QuerySelectorAsync(".product-card-price__sale");
+                                if (discountEl != null)
+                                {
+                                    prod.Discount = (await discountEl.InnerTextAsync())?.Trim() ?? "";
+                                }
 
-                                // Derive name from element lines: prefer longest line that does not contain price/грн/₴/%
-                                var lines = text.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries)
-                                                .Select(l => l.Trim())
-                                                .Where(l => l.Length > 0)
-                                                .ToArray();
+                                // Get weight/amount info
+                                var weightEl = await el.QuerySelectorAsync(".ft-typo-14-semibold span");
+                                if (weightEl != null)
+                                {
+                                    var weightText = (await weightEl.InnerTextAsync())?.Trim() ?? "";
+                                    // Store weight info in Name for now, could add a separate Weight property to Product class if needed
+                                    prod.Name = $"{prod.Name} ({weightText})";
+                                }
 
-                                string nameCandidate = lines
-                                    .Where(l => !Regex.IsMatch(l, @"\d+(?:[.,]\d+)?\s*(грн|₴|%)", RegexOptions.IgnoreCase) &&
-                                                !l.ToLower().EndsWith("г") && !l.ToLower().EndsWith("г."))
-                                    .OrderByDescending(l => l.Length)
-                                    .FirstOrDefault();
-
-                                prod.Name = (nameCandidate ?? lines.FirstOrDefault() ?? normalized).Trim();
-
-                                // Is on sale if old price exists and is greater than price
-                                if (prod.OldPrice.HasValue && prod.OldPrice.Value > prod.Price)
-                                    prod.IsOnSale = true;
-
-                                products.Add(prod);
+                                if (!string.IsNullOrWhiteSpace(prod.Name))
+                                {
+                                    products.Add(prod);
+                                    
+                                    if (_config.EnableLogging && prod.IsBulk)
+                                    {
+                                        Console.WriteLine($"  ✓ Found bulk product: {prod.Name} - Retail: {prod.Price} грн, Bulk: {prod.BulkPrice} грн");
+                                    }
+                                }
                             }
-                            catch { }
-                        
+                            catch (Exception ex)
+                            {
+                                if (_config.EnableLogging) Console.WriteLine($"Error parsing product: {ex.Message}");
+                            }
                         }
-                        
-                        var addedCount = products.Count - beforeCount;
-                        Console.WriteLine($" Extracted {addedCount} products (Total: {products.Count})");
+
+                        int addedCount = products.Count - beforeCount;
+                        int bulkCount = products.Skip(beforeCount).Count(p => p.IsBulk);
+                        Console.WriteLine($" Extracted {addedCount} products ({bulkCount} with bulk pricing) (Total: {products.Count})");
                     }
+                    
                 }
                 catch (Exception ex)
                 {
@@ -207,10 +247,13 @@ namespace ProductScraper
 
             await context.CloseAsync();
             
-            Console.WriteLine($"\n{'='*60}");
+            int totalBulkProducts = products.Count(p => p.IsBulk);
+            
+            Console.WriteLine($"\n{new string('=', 60)}");
             Console.WriteLine($"SCRAPING COMPLETE");
             Console.WriteLine($"Total products extracted: {products.Count}");
-            Console.WriteLine($"{'='*60}");
+            Console.WriteLine($"Products with bulk pricing: {totalBulkProducts}");
+            Console.WriteLine($"{new string('=', 60)}");
             
             return products;
         }

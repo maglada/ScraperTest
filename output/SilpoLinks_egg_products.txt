@@ -1,371 +1,332 @@
 Total Products: 82
-Generated: 10/26/2025 12:08:12 AM
+Generated: 10/26/2025 4:49:57 PM
 ================================================================================
 
-Яйце «Ясенсвіт» «Справжні велетні» С0
+Яйця курячі С1 «Квочка» (10шт)
   Category: SilpoLinks_egg
   Price: 80.55 ₴
 
-Яйця курячі «Премія»® «Поважний розмір» столові вищої категорії
+Яйце «Ясенсвіт» «Справжні велетні» С0 (10шт)
   Category: SilpoLinks_egg
-  Price: 79.49 ₴
+  Price: 80.55 ₴
 
-Яйця курячі «Квочка» XL відбірні СВ
+Яйця курячі «Премія»® «Поважний розмір» столові вищої категорії (10шт)
+  Category: SilpoLinks_egg
+  Price: 78.96 ₴
+
+Яйця курячі «Квочка» XL відбірні СВ (10шт)
   Category: SilpoLinks_egg
   Price: 98.57 ₴
 
-Яйця курячі «Квочка» Premium С0
+Яйця курячі «Квочка» Premium С0 (10шт)
   Category: SilpoLinks_egg
   Price: 87.97 ₴
 
-Яйця курячі «Квочка» «Вільний вигул»
+Яйця курячі «Квочка» «Вільний вигул» (10шт)
   Category: SilpoLinks_egg
   Price: 87.97 ₴
 
-Яйце молодильне відбірне
+Яйце молодильне відбірне (10шт)
   Category: SilpoLinks_egg
   Price: 94.33 ₴
 
-Яйця курячі «Повна Чаша»® 1 категорія
+Яйця курячі «Повна Чаша»® 1 категорія (15шт)
   Category: SilpoLinks_egg
   Price: 100.69 ₴
 
-Яйця перепелині «Премія»®
+Яйця перепелині «Премія»® (20шт)
   Category: SilpoLinks_egg
   Price: 67.99 ₴
 
-Яйця курячі Квочка Файна курка С2
+Яйця курячі Квочка Файна курка С2 (10шт)
   Category: SilpoLinks_egg
-  Price: 76.84 ₴
+  Price: 80.55 ₴
 
-Яйця курячі «Це – яйце!» «Від молодих курочок» С0
+Яйця курячі «Це – яйце!» «Від молодих курочок» С0 (10шт)
   Category: SilpoLinks_egg
-  Price: 83.73 ₴
+  Price: 90.09 ₴
 
-Яйця Від доброї курки Свіжість С1
+Яйця Від доброї курки Свіжість С1 (10шт)
   Category: SilpoLinks_egg
   Price: 76.31 ₴
 
-Яйця курячі Zlata Kladka Exportowe С0
+Яйця курячі Zlata Kladka Exportowe С0 (10шт)
   Category: SilpoLinks_egg
-  Price: 81.61 ₴
+  Price: 89.03 ₴
 
-Яйце куряче Organick Chicken органічне C1 біле
-  Category: SilpoLinks_egg
-  Price: 91.15 ₴
-
-Яйця Ясенсвіт Супер Mах СВ
-  Category: SilpoLinks_egg
-  Price: 102.81 ₴
-
-Яйце куряче «Ясенсвіт» «Вільний вигул» С1
+Яйце куряче «Ясенсвіт» «Вільний вигул» С1 (10шт)
   Category: SilpoLinks_egg
   Price: 99.10 ₴
 
-Яйця курячі Шаничі M С1
-  Category: SilpoLinks_egg
-  Price: 106.00 ₴
-
-Яйця курячі «Лавка традицій» «Вільний випас» С1
-  Category: SilpoLinks_egg
-  Price: 59.88 ₴
-
-Яйця курячі «Лавка традицій» домашній спосіб утримання С1
-  Category: SilpoLinks_egg
-  Price: 92.74 ₴
-
-Яйце куряче Organick Chicken органічне С1 коричневе
-  Category: SilpoLinks_egg
-  Price: 95.39 ₴
-
-Яйця перепелині «Агрокомплекс Фенікс»
-  Category: SilpoLinks_egg
-  Price: 69.99 ₴
-
-[SALE] Білок яєчний курячий «Ясенсвіт» пастеризований
-  Category: SilpoLinks_egg
-  Old Price: 500 ₴
-  New Price: 68.99 ₴
-  Discount: 
-  Valid Until: 
-
-Яйця курячі Супер Ко-Ко для дітей М С1
-  Category: SilpoLinks_egg
-  Price: 84.26 ₴
-
-Яйця курячі Ясенсвіт Дюжина яєць
-  Category: SilpoLinks_egg
-  Price: 103.87 ₴
-
-Яйця «Від доброї курки» «Формула здоров'я»
-  Category: SilpoLinks_egg
-  Price: 95.39 ₴
-
-Яйця курячі Супер Ко-Ко L С0
+Яйце куряче Organick Chicken органічне C1 біле (10шт)
   Category: SilpoLinks_egg
   Price: 91.15 ₴
 
-Яйця курячі Шаничі СВ
+Яйця Ясенсвіт Супер Mах СВ (10шт)
   Category: SilpoLinks_egg
-  Price: 80.55 ₴
+  Price: 102.81 ₴
 
-Яйця курячі «Ясенсвіт» харчові столові С1
+Яйця курячі «Лавка традицій» «Вільний випас» С1 (6шт/уп)
   Category: SilpoLinks_egg
-  Price: 70.99 ₴
+  Price: 59.88 ₴
 
-Яйця курячі Ясенсвіт Mixed різновагові
+Яйця курячі Шаничі M С1 (10шт)
   Category: SilpoLinks_egg
-  Price: 81.08 ₴
+  Price: 115.54 ₴
 
-Яйця перепелині «Чарівний Птах»
+Яйця курячі «Лавка традицій» домашній спосіб утримання С1 (10шт/уп)
   Category: SilpoLinks_egg
-  Price: 104.00 ₴
+  Price: 92.74 ₴
 
-Яйця курячі «Повна Чаша»® 1 кат. білі/коричневі
+Яйце куряче Organick Chicken органічне С1 коричневе (10шт)
   Category: SilpoLinks_egg
-  Price: 69.95 ₴
+  Price: 95.39 ₴
 
-Яйця курячі «Повна Чаша»® 1 категорія, білі/коричневі
+Яйця перепелині «Агрокомплекс Фенікс» (20шт)
   Category: SilpoLinks_egg
-  Price: 73.13 ₴
+  Price: 69.99 ₴
 
-Яйця курячі С1 «Квочка»
+Білок яєчний курячий «Ясенсвіт» пастеризований (500г)
   Category: SilpoLinks_egg
-  Price: 80.55 ₴
+  Price: 68.99 ₴
 
-Яйця курячі «Ясенсвіт» Original вищої категорії
+Яйця курячі Супер Ко-Ко для дітей М С1 (10шт)
   Category: SilpoLinks_egg
-  Price: 96.98 ₴
+  Price: 84.26 ₴
 
-Яйця курячі «Квочка» «Домашні» С0
-  Category: SilpoLinks_egg
-  Price: 84.79 ₴
-
-Яйця курячі «Квочка»
-  Category: SilpoLinks_egg
-  Price: 124.02 ₴
-
-Яйця курячі «Це-Яйце!» «Від молодих курочок» 2 категорії
-  Category: SilpoLinks_egg
-  Price: 59.99 ₴
-
-Яйця перепелині «Чарівний птах»
-  Category: SilpoLinks_egg
-  Price: 129.00 ₴
-
-Яйця курячі Дунайський Аграрій органічні
-  Category: SilpoLinks_egg
-  Price: 73.66 ₴
-
-Яйця курячі Шаничі С0
+Яйця курячі Шаничі С0 (10шт)
   Category: SilpoLinks_egg
   Price: 120.84 ₴
 
-Яйця курячі Шаничі С1
+Яйця курячі Ясенсвіт Дюжина яєць (12шт)
   Category: SilpoLinks_egg
-  Price: 147.34 ₴
+  Price: 103.87 ₴
 
-Яйця курячі «Премія»® Поважний розмір вища категорія
+Яйця «Від доброї курки» «Формула здоров'я» (10шт)
   Category: SilpoLinks_egg
-  Price: 65.91 ₴
+  Price: 95.39 ₴
 
-Яйця курячі Від доброї курки Київська С1
-  Category: SilpoLinks_egg
-  Price: 134.62 ₴
-
-Яйця курячі Від доброї курки Київська С0
+Яйця курячі Від доброї курки Київська С0 (10шт)
   Category: SilpoLinks_egg
   Price: 80.55 ₴
 
-Яйця курячі Від доброї курки Київська С1
-  Category: SilpoLinks_egg
-  Price: 78.43 ₴
-
-Яйця курячі Квочка Супер економ С1
-  Category: SilpoLinks_egg
-  Price: 77.16 ₴
-
-Яйця курячі Квочка С1
-  Category: SilpoLinks_egg
-  Price: 225.57 ₴
-
-Яйця цесарки Шаничі французької
-  Category: SilpoLinks_egg
-  Price: 314.00 ₴
-
-Яйця курячі Свіжак харчові столові 1 категорії C1
-  Category: SilpoLinks_egg
-  Price: 74.19 ₴
-
-Яйця курячі Svitлиця харчові столові 1 категорії C1
+Яйця курячі Шаничі СВ (6шт)
   Category: SilpoLinks_egg
   Price: 80.55 ₴
 
-Яйця курячі Свіжак харчові столові вищої категорії C0
+Яйця курячі Супер Ко-Ко L С0 (10шт)
   Category: SilpoLinks_egg
-  Price: 84.79 ₴
+  Price: 91.15 ₴
 
-Яйця курячі Пашот харчові столові С0
+Яйця курячі «Ясенсвіт» харчові столові С1 (10шт)
   Category: SilpoLinks_egg
-  Price: 73.13 ₴
+  Price: 70.99 ₴
 
-Яйця курячі Пашот харчові столові С1
-  Category: SilpoLinks_egg
-  Price: 67.83 ₴
-
-Яйця цесарки Пташина Династія Цезарі
+Яйця цесарки Пташина Династія Цезарі (6шт)
   Category: SilpoLinks_egg
   Price: 199.00 ₴
 
-Яйце куряче С1/С0
+Яйця курячі Ясенсвіт Mixed різновагові (10шт)
   Category: SilpoLinks_egg
-  Price: 1 ₴
+  Price: 81.08 ₴
 
-Яйця «Ясенсвіт» Україна, упаковка
+Яйця перепелині «Чарівний Птах» (20шт)
   Category: SilpoLinks_egg
-  Price: 10 ₴
+  Price: 104.00 ₴
 
-[SALE] Яйця курячі «Ясенсвіт» «Фермерські» 1 ґатунок
+Яйця курячі «Повна Чаша»® 1 кат. білі/коричневі (10шт)
   Category: SilpoLinks_egg
-  Old Price: 10 ₴
-  New Price: 1 ₴
-  Discount: 
-  Valid Until: 
+  Price: 69.95 ₴
 
-Яйце куряче «Лавка традицій» відбірне
+Яйця курячі «Повна Чаша»® 1 категорія, білі/коричневі (10шт)
   Category: SilpoLinks_egg
-  Price: 1 ₴
+  Price: 73.13 ₴
 
-[SALE] Яйця курячі «Світ Біо» органічні С1
+Яйця курячі «Ясенсвіт» Original вищої категорії (10шт)
   Category: SilpoLinks_egg
-  Old Price: 10 ₴
-  New Price: 1 ₴
-  Discount: 
-  Valid Until: 
+  Price: 95.92 ₴
 
-[SALE] Яйця курячі «Це - Яйце!» Від молодих курочок С1
+Яйця курячі «Квочка» «Домашні» С0 (10шт)
   Category: SilpoLinks_egg
-  Old Price: 10 ₴
-  New Price: 1 ₴
-  Discount: 
-  Valid Until: 
+  Price: 84.79 ₴
 
-[SALE] Яйця курячі Zlata Kladka С1
+Яйця курячі «Квочка» (15шт)
   Category: SilpoLinks_egg
-  Old Price: 10 ₴
-  New Price: 1 ₴
-  Discount: 
-  Valid Until: 
+  Price: 126.14 ₴
 
-[SALE] Яйця курячі «Це - Яйце!» «Ранкове» харчові столові С1
+Яйця курячі «Це-Яйце!» «Від молодих курочок» 2 категорії (10шт)
   Category: SilpoLinks_egg
-  Old Price: 10 ₴
-  New Price: 1 ₴
-  Discount: 
-  Valid Until: 
+  Price: 59.99 ₴
 
-Яйця перепелині «Грабовецька Перепілка»
+Яйця перепелині «Чарівний птах» (30шт)
   Category: SilpoLinks_egg
-  Price: 20 ₴
+  Price: 129.00 ₴
 
-[SALE] Яйця курячі «Ясенсвіт» «Для духмяних пирогів» 1 категорії
+Яйця курячі Дунайський Аграрій органічні (10шт/уп)
   Category: SilpoLinks_egg
-  Old Price: 15 ₴
-  New Price: 1 ₴
-  Discount: 
-  Valid Until: 
+  Price: 73.66 ₴
 
-[SALE] Яйця курячі «Косівщина» С0
+Яйця курячі Шаничі С1 (15шт)
   Category: SilpoLinks_egg
-  Old Price: 10 ₴
-  New Price: 0 ₴
-  Discount: 
-  Valid Until: 
+  Price: 147.34 ₴
 
-[SALE] Яйця курячі «Косівщина» С1
+Яйця курячі «Премія»® Поважний розмір вища категорія (10шт)
   Category: SilpoLinks_egg
-  Old Price: 10 ₴
-  New Price: 1 ₴
-  Discount: 
-  Valid Until: 
+  Price: 65.91 ₴
 
-[SALE] Яйця курячі «Це - Яйце!» столові С1
+Яйця курячі Від доброї курки Київська С1 (20шт)
   Category: SilpoLinks_egg
-  Old Price: 15 ₴
-  New Price: 1 ₴
-  Discount: 
-  Valid Until: 
+  Price: 134.62 ₴
 
-Яйця курячі «Квочкино» вищої категорії
+Яйця курячі Від доброї курки Київська С1 (10шт)
   Category: SilpoLinks_egg
-  Price: 10 ₴
+  Price: 78.43 ₴
 
-Яйця Десяточка 10 Свіжих яєць С1
+Яйця курячі Квочка Супер економ С1 (10шт)
   Category: SilpoLinks_egg
-  Price: 10 ₴
+  Price: 77.16 ₴
 
-[SALE] Яйця курячі 1 категорія, білі/коричневі
+Яйця курячі Квочка С1 (30шт)
   Category: SilpoLinks_egg
-  Old Price: 10 ₴
-  New Price: 1 ₴
-  Discount: 
-  Valid Until: 
+  Price: 225.57 ₴
 
-Яйця перепелині «Чарівний птах»
+Яйця курячі Квочка С1 (30шт)
+  Category: SilpoLinks_egg
+  Price: 225.57 ₴
+
+Яйця цесарки Шаничі французької (6шт)
+  Category: SilpoLinks_egg
+  Price: 314.00 ₴
+
+Яйця курячі Svitлиця харчові столові 1 категорії C1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 80.55 ₴
+
+Яйця курячі Свіжак харчові столові вищої категорії C0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 84.79 ₴
+
+Яйця курячі Пашот харчові столові С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 73.13 ₴
+
+Яйця курячі Пашот харчові столові С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 67.30 ₴
+
+Яйце куряче С1/С0 (шт)
   Category: SilpoLinks_egg
   Price: 0 ₴
 
-Яйця перепелині «Концерн-СВК» «Перепілка Фроня і друзі»
-  Category: SilpoLinks_egg
-  Price: 20 ₴
-
-Товар закінчився
-  Category: SilpoLinks_egg
-  Price: 20 ₴
-
-Яйце перепелине «Рідний птах»
-  Category: SilpoLinks_egg
-  Price: 20 ₴
-
-Яйце перепелине «Продовольчий Альянс»
-  Category: SilpoLinks_egg
-  Price: 20 ₴
-
-Яйця перепелині Чарівний птах блістер
-  Category: SilpoLinks_egg
-  Price: 20 ₴
-
-Замінник яєць Cultured Foods vEGGs Omelette
-  Category: SilpoLinks_egg
-  Price: 180 ₴
-
-Замінник яєць Cultured Foods vEGGs
-  Category: SilpoLinks_egg
-  Price: 102 ₴
-
-[SALE] Яйця курячі Вільна вільний вигул С1
-  Category: SilpoLinks_egg
-  Old Price: 10 ₴
-  New Price: 1 ₴
-  Discount: 
-  Valid Until: 
-
-Яйця цесарки Вільна французької
-  Category: SilpoLinks_egg
-  Price: 6 ₴
-
-[SALE] Яйця курячі Квочка Супер вибір С0
-  Category: SilpoLinks_egg
-  Old Price: 10 ₴
-  New Price: 0 ₴
-  Discount: 
-  Valid Until: 
-
-Товар закінчився
+Яйця «Ясенсвіт» Україна, упаковка (10шт)
   Category: SilpoLinks_egg
   Price: 0 ₴
 
-Яйце Страусине столове
+Яйця курячі «Ясенсвіт» «Фермерські» 1 ґатунок (10шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйце куряче «Лавка традицій» відбірне (1шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Світ Біо» органічні С1 (10шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Це - Яйце!» Від молодих курочок С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі Zlata Kladka С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Це - Яйце!» «Ранкове» харчові столові С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця перепелині «Грабовецька Перепілка» (20шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Ясенсвіт» «Для духмяних пирогів» 1 категорії (15шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Косівщина» С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Косівщина» С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Це - Яйце!» столові С1 (15шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Квочкино» вищої категорії (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця Десяточка 10 Свіжих яєць С1 (10шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі 1 категорія, білі/коричневі (10шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця перепелині «Чарівний птах» (шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця перепелині «Концерн-СВК» «Перепілка Фроня і друзі» (20шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця перепелині (20шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйце перепелине «Рідний птах» (20шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйце перепелине «Продовольчий Альянс» (20шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця перепелині Чарівний птах блістер (20шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Замінник яєць Cultured Foods vEGGs Omelette (180г)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Замінник яєць Cultured Foods vEGGs (102г)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі Вільна вільний вигул С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця цесарки Вільна французької (6шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі Квочка Супер вибір С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Лінивий сирний пиріг ()
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйце Страусине столове (шт)
   Category: SilpoLinks_egg
   Price: 0 ₴
 

@@ -1,282 +1,1498 @@
-Total Products: 47
-Generated: 10/26/2025 12:27:05 AM
+Total Products: 285
+Generated: 10/26/2025 4:49:57 PM
 ================================================================================
 
-[SALE] Котлета BeFoodie По-київськи з часником та травами
-  Category: SilpoLinks_halfmade
-  Old Price: 500 ₴
-  New Price: 349.00 ₴
-  Discount: 
+[SALE] Булка подова Французька (400г)
+  Category: SilpoLinks_bread
+  Old Price: 39.89 ₴
+  New Price: 29.92 ₴
+  Discount: - 25%
   Valid Until: 
 
-[SALE] Пельмені «Левада» з м'ясом індички
+[SALE] Хліб Boulangerie «Фітнес» (400г)
+  Category: SilpoLinks_bread
+  Old Price: 39.99 ₴
+  New Price: 29.99 ₴
+  Discount: - 25%
+  Valid Until: 
+
+[SALE] Чіабата бездріжджова (250г)
+  Category: SilpoLinks_bread
+  Old Price: 38.59 ₴
+  New Price: 30.10 ₴
+  Discount: - 22%
+  Valid Until: 
+
+[SALE] Гриссіні з пармезаном (100г)
+  Category: SilpoLinks_bread
+  Old Price: 44.90 ₴
+  New Price: 35.92 ₴
+  Discount: - 20%
+  Valid Until: 
+
+[SALE] Слойка з індичкою та сиром фета (200г)
+  Category: SilpoLinks_bread
+  Old Price: 74.99 ₴
+  New Price: 54.74 ₴
+  Discount: - 27%
+  Valid Until: 
+
+[SALE] Хліб «Крафтяр» «Скандинавський» (100г)
+  Category: SilpoLinks_bread
+  Old Price: 11.40 ₴
+  New Price: 9.23 ₴
+  Discount: - 19%
+  Valid Until: 
+
+[SALE] Хліб Київський гречаний (100г)
+  Category: SilpoLinks_bread
+  Old Price: 12.90 ₴
+  New Price: 10.32 ₴
+  Discount: - 20%
+  Valid Until: 
+
+[SALE] Хліб подовий житньо-пшеничний мультизерновий (100г)
+  Category: SilpoLinks_bread
+  Old Price: 15.29 ₴
+  New Price: 11.93 ₴
+  Discount: - 22%
+  Valid Until: 
+
+[SALE] Сирник Львівський (100г)
+  Category: SilpoLinks_bread
+  Old Price: 61.85 ₴
+  New Price: 47.00 ₴
+  Discount: - 24%
+  Valid Until: 
+
+[SALE] Хліб 100% житній «Фінський» міні (300г)
+  Category: SilpoLinks_bread
+  Old Price: 43.29 ₴
+  New Price: 35.50 ₴
+  Discount: - 18%
+  Valid Until: 
+
+[SALE] Роліні з тіста Філо з курячим м'ясом і телятиною (90г)
+  Category: SilpoLinks_bread
+  Old Price: 29.99 ₴
+  New Price: 24.89 ₴
+  Discount: - 17%
+  Valid Until: 
+
+[SALE] Лаваш з м'ясом асорті (200г)
+  Category: SilpoLinks_bread
+  Old Price: 44.99 ₴
+  New Price: 37.99 ₴
+  Discount: - 16%
+  Valid Until: 
+
+[SALE] Пиріжок з капустою і грибами (90г)
+  Category: SilpoLinks_bread
+  Old Price: 26.99 ₴
+  New Price: 19.16 ₴
+  Discount: - 29%
+  Valid Until: 
+
+[SALE] Слойка з шинкою (200г)
+  Category: SilpoLinks_bread
+  Old Price: 82.49 ₴
+  New Price: 65.17 ₴
+  Discount: - 21%
+  Valid Until: 
+
+[SALE] Хліб подовий Паризький (100г)
+  Category: SilpoLinks_bread
+  Old Price: 11.90 ₴
+  New Price: 9.52 ₴
+  Discount: - 20%
+  Valid Until: 
+
+[SALE] Сендвіч з баликом (215г)
+  Category: SilpoLinks_bread
+  Old Price: 69.99 ₴
+  New Price: 55.29 ₴
+  Discount: - 21%
+  Valid Until: 
+
+Булочка Равлик з вишневою начинкою (100г)
+  Category: SilpoLinks_bread
+  Price: 37.99 ₴
+
+[SALE] Соломка KBV Magic sticks глазур зі смаком полуниці (60г)
+  Category: SilpoLinks_bread
+  Old Price: 21.99 ₴
+  New Price: 17.99 ₴
+  Discount: - 18%
+  Valid Until: 
+
+[SALE] Калач «Волинський» (300г)
+  Category: SilpoLinks_bread
+  Old Price: 54.99 ₴
+  New Price: 45.09 ₴
+  Discount: - 18%
+  Valid Until: 
+
+[SALE] Соломка KBV Magic sticks глазур зі смаком шоколаду (60г)
+  Category: SilpoLinks_bread
+  Old Price: 21.99 ₴
+  New Price: 17.99 ₴
+  Discount: - 18%
+  Valid Until: 
+
+[SALE] Сушки БКК міні (250г)
+  Category: SilpoLinks_bread
+  Old Price: 44.79 ₴
+  New Price: 35.99 ₴
+  Discount: - 20%
+  Valid Until: 
+
+[SALE] Рулет з повидлом (200г)
+  Category: SilpoLinks_bread
+  Old Price: 36.99 ₴
+  New Price: 27.74 ₴
+  Discount: - 25%
+  Valid Until: 
+
+[SALE] Сушки БКК «Флора» малютка (300г)
+  Category: SilpoLinks_bread
+  Old Price: 51.49 ₴
+  New Price: 41.99 ₴
+  Discount: - 18%
+  Valid Until: 
+
+Багет подовий Французький Люкс (300г)
+  Category: SilpoLinks_bread
+  Price: 37.99 ₴
+
+Багет подовий гречаний (300г)
+  Category: SilpoLinks_bread
+  Price: 47.99 ₴
+
+[SALE] Багет «Крафтяр» подовий гречаний міні (160г)
+  Category: SilpoLinks_bread
+  Old Price: 26.99 ₴
+  New Price: 19.99 ₴
+  Discount: - 26%
+  Valid Until: 
+
+Багет подовий Прованський з сиром (300г)
+  Category: SilpoLinks_bread
+  Price: 47.99 ₴
+
+Багет подовий міні (125г)
+  Category: SilpoLinks_bread
+  Price: 18.79 ₴
+
+Сендвіч з бужениною (200г)
+  Category: SilpoLinks_bread
+  Price: 69.99 ₴
+
+Хліб подовий Альзас солодовий (100г)
+  Category: SilpoLinks_bread
+  Price: 11.90 ₴
+
+Багет «Крафтяр» «Софіївський» подовий (220г)
+  Category: SilpoLinks_bread
+  Price: 27.99 ₴
+
+Булочки «Крафтяр» роли з корицею (100г)
+  Category: SilpoLinks_bread
+  Price: 36.90 ₴
+
+Пиріжок з м'ясом (90г)
+  Category: SilpoLinks_bread
+  Price: 32.99 ₴
+
+Штрудель з маком (100г)
+  Category: SilpoLinks_bread
+  Price: 27.39 ₴
+
+Піде з сиром (230г)
+  Category: SilpoLinks_bread
+  Price: 99.00 ₴
+
+Кекс гарбузовий з журавлиною (100г)
+  Category: SilpoLinks_bread
+  Price: 39.90 ₴
+
+Лаваш з сиром та зеленню (200г)
+  Category: SilpoLinks_bread
+  Price: 54.99 ₴
+
+Хліб подовий Гарбузик (420г)
+  Category: SilpoLinks_bread
+  Price: 69.99 ₴
+
+Пиріг Грецький (100г)
+  Category: SilpoLinks_bread
+  Price: 39.90 ₴
+
+Соломка «Премія»® з гімалайською сіллю (200г)
+  Category: SilpoLinks_bread
+  Price: 33.99 ₴
+
+Багет подовий з часником (150г)
+  Category: SilpoLinks_bread
+  Price: 20.99 ₴
+
+Пиріг пісочний з яблуком (250г)
+  Category: SilpoLinks_bread
+  Price: 99.00 ₴
+
+Сирник брауні з вишнею (100г)
+  Category: SilpoLinks_bread
+  Price: 54.89 ₴
+
+Сендвіч з моцареллою (225г)
+  Category: SilpoLinks_bread
+  Price: 79.99 ₴
+
+Багет подовий Гарбузет (320г)
+  Category: SilpoLinks_bread
+  Price: 44.99 ₴
+
+Булочки Гарбузулочки (100г)
+  Category: SilpoLinks_bread
+  Price: 36.90 ₴
+
+Сендвіч гречаний з тунцем (265г)
+  Category: SilpoLinks_bread
+  Price: 119.00 ₴
+
+Яйця курячі С1 «Квочка» (10шт)
+  Category: SilpoLinks_egg
+  Price: 80.55 ₴
+
+Яйце «Ясенсвіт» «Справжні велетні» С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 80.55 ₴
+
+Яйця курячі «Премія»® «Поважний розмір» столові вищої категорії (10шт)
+  Category: SilpoLinks_egg
+  Price: 78.96 ₴
+
+Яйця курячі «Квочка» XL відбірні СВ (10шт)
+  Category: SilpoLinks_egg
+  Price: 98.57 ₴
+
+Яйця курячі «Квочка» Premium С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 87.97 ₴
+
+Яйця курячі «Квочка» «Вільний вигул» (10шт)
+  Category: SilpoLinks_egg
+  Price: 87.97 ₴
+
+Яйце молодильне відбірне (10шт)
+  Category: SilpoLinks_egg
+  Price: 94.33 ₴
+
+Яйця курячі «Повна Чаша»® 1 категорія (15шт)
+  Category: SilpoLinks_egg
+  Price: 100.69 ₴
+
+Яйця перепелині «Премія»® (20шт)
+  Category: SilpoLinks_egg
+  Price: 67.99 ₴
+
+Яйця курячі Квочка Файна курка С2 (10шт)
+  Category: SilpoLinks_egg
+  Price: 80.55 ₴
+
+Яйця курячі «Це – яйце!» «Від молодих курочок» С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 90.09 ₴
+
+Яйця Від доброї курки Свіжість С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 76.31 ₴
+
+Яйця курячі Zlata Kladka Exportowe С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 89.03 ₴
+
+Яйце куряче «Ясенсвіт» «Вільний вигул» С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 99.10 ₴
+
+Яйце куряче Organick Chicken органічне C1 біле (10шт)
+  Category: SilpoLinks_egg
+  Price: 91.15 ₴
+
+Яйця Ясенсвіт Супер Mах СВ (10шт)
+  Category: SilpoLinks_egg
+  Price: 102.81 ₴
+
+Яйця курячі «Лавка традицій» «Вільний випас» С1 (6шт/уп)
+  Category: SilpoLinks_egg
+  Price: 59.88 ₴
+
+Яйця курячі Шаничі M С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 115.54 ₴
+
+Яйця курячі «Лавка традицій» домашній спосіб утримання С1 (10шт/уп)
+  Category: SilpoLinks_egg
+  Price: 92.74 ₴
+
+Яйце куряче Organick Chicken органічне С1 коричневе (10шт)
+  Category: SilpoLinks_egg
+  Price: 95.39 ₴
+
+Яйця перепелині «Агрокомплекс Фенікс» (20шт)
+  Category: SilpoLinks_egg
+  Price: 69.99 ₴
+
+Білок яєчний курячий «Ясенсвіт» пастеризований (500г)
+  Category: SilpoLinks_egg
+  Price: 68.99 ₴
+
+Яйця курячі Супер Ко-Ко для дітей М С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 84.26 ₴
+
+Яйця курячі Шаничі С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 120.84 ₴
+
+Яйця курячі Ясенсвіт Дюжина яєць (12шт)
+  Category: SilpoLinks_egg
+  Price: 103.87 ₴
+
+Яйця «Від доброї курки» «Формула здоров'я» (10шт)
+  Category: SilpoLinks_egg
+  Price: 95.39 ₴
+
+Яйця курячі Від доброї курки Київська С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 80.55 ₴
+
+Яйця курячі Шаничі СВ (6шт)
+  Category: SilpoLinks_egg
+  Price: 80.55 ₴
+
+Яйця курячі Супер Ко-Ко L С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 91.15 ₴
+
+Яйця курячі «Ясенсвіт» харчові столові С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 70.99 ₴
+
+Яйця цесарки Пташина Династія Цезарі (6шт)
+  Category: SilpoLinks_egg
+  Price: 199.00 ₴
+
+Яйця курячі Ясенсвіт Mixed різновагові (10шт)
+  Category: SilpoLinks_egg
+  Price: 81.08 ₴
+
+Яйця перепелині «Чарівний Птах» (20шт)
+  Category: SilpoLinks_egg
+  Price: 104.00 ₴
+
+Яйця курячі «Повна Чаша»® 1 кат. білі/коричневі (10шт)
+  Category: SilpoLinks_egg
+  Price: 69.95 ₴
+
+Яйця курячі «Повна Чаша»® 1 категорія, білі/коричневі (10шт)
+  Category: SilpoLinks_egg
+  Price: 73.13 ₴
+
+Яйця курячі «Ясенсвіт» Original вищої категорії (10шт)
+  Category: SilpoLinks_egg
+  Price: 95.92 ₴
+
+Яйця курячі «Квочка» «Домашні» С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 84.79 ₴
+
+Яйця курячі «Квочка» (15шт)
+  Category: SilpoLinks_egg
+  Price: 126.14 ₴
+
+Яйця курячі «Це-Яйце!» «Від молодих курочок» 2 категорії (10шт)
+  Category: SilpoLinks_egg
+  Price: 59.99 ₴
+
+Яйця перепелині «Чарівний птах» (30шт)
+  Category: SilpoLinks_egg
+  Price: 129.00 ₴
+
+Яйця курячі Дунайський Аграрій органічні (10шт/уп)
+  Category: SilpoLinks_egg
+  Price: 73.66 ₴
+
+Яйця курячі Шаничі С1 (15шт)
+  Category: SilpoLinks_egg
+  Price: 147.34 ₴
+
+Яйця курячі «Премія»® Поважний розмір вища категорія (10шт)
+  Category: SilpoLinks_egg
+  Price: 65.91 ₴
+
+Яйця курячі Від доброї курки Київська С1 (20шт)
+  Category: SilpoLinks_egg
+  Price: 134.62 ₴
+
+Яйця курячі Від доброї курки Київська С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 78.43 ₴
+
+Яйця курячі Квочка Супер економ С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 77.16 ₴
+
+Яйця курячі Квочка С1 (30шт)
+  Category: SilpoLinks_egg
+  Price: 225.57 ₴
+
+Яйця курячі Квочка С1 (30шт)
+  Category: SilpoLinks_egg
+  Price: 225.57 ₴
+
+Яйця цесарки Шаничі французької (6шт)
+  Category: SilpoLinks_egg
+  Price: 314.00 ₴
+
+Яйця курячі Svitлиця харчові столові 1 категорії C1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 80.55 ₴
+
+Яйця курячі Свіжак харчові столові вищої категорії C0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 84.79 ₴
+
+Яйця курячі Пашот харчові столові С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 73.13 ₴
+
+Яйця курячі Пашот харчові столові С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 67.30 ₴
+
+Яйце куряче С1/С0 (шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця «Ясенсвіт» Україна, упаковка (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Ясенсвіт» «Фермерські» 1 ґатунок (10шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйце куряче «Лавка традицій» відбірне (1шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Світ Біо» органічні С1 (10шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Це - Яйце!» Від молодих курочок С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі Zlata Kladka С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Це - Яйце!» «Ранкове» харчові столові С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця перепелині «Грабовецька Перепілка» (20шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Ясенсвіт» «Для духмяних пирогів» 1 категорії (15шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Косівщина» С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Косівщина» С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Це - Яйце!» столові С1 (15шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі «Квочкино» вищої категорії (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця Десяточка 10 Свіжих яєць С1 (10шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі 1 категорія, білі/коричневі (10шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця перепелині «Чарівний птах» (шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця перепелині «Концерн-СВК» «Перепілка Фроня і друзі» (20шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця перепелині (20шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйце перепелине «Рідний птах» (20шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйце перепелине «Продовольчий Альянс» (20шт/уп)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця перепелині Чарівний птах блістер (20шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Замінник яєць Cultured Foods vEGGs Omelette (180г)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Замінник яєць Cultured Foods vEGGs (102г)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі Вільна вільний вигул С1 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця цесарки Вільна французької (6шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйця курячі Квочка Супер вибір С0 (10шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Лінивий сирний пиріг ()
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+Яйце Страусине столове (шт)
+  Category: SilpoLinks_egg
+  Price: 0 ₴
+
+[SALE] Оселедець Norsk Delikatesse норвезький молодий слабосолений (100г)
+  Category: SilpoLinks_fish
+  Old Price: 22.90 ₴
+  New Price: 16.90 ₴
+  Discount: - 26%
+  Valid Until: 
+
+[SALE] Дорадо патраний чищений охолоджений 300-600 (100г)
+  Category: SilpoLinks_fish
+  Old Price: 51.90 ₴
+  New Price: 42.56 ₴
+  Discount: - 18%
+  Valid Until: 
+
+Тунець стейк свіжоморожений (100г)
+  Category: SilpoLinks_fish
+  Price: 59.90 ₴
+
+[SALE] М'ясо мідій «Премія»® варено-морожене (500г)
+  Category: SilpoLinks_fish
+  Old Price: 254.00 ₴
+  New Price: 187.96 ₴
+  Discount: - 26%
+  Valid Until: 
+
+[SALE] Сьомга Norven філе-шматок слабосолена (130г)
+  Category: SilpoLinks_fish
+  Old Price: 269.00 ₴
+  New Price: 199.06 ₴
+  Discount: - 26%
+  Valid Until: 
+
+[SALE] Капуста морська «Ніжин» з морквою та селерою (100г)
+  Category: SilpoLinks_fish
+  Old Price: 22.99 ₴
+  New Price: 19.32 ₴
+  Discount: - 16%
+  Valid Until: 
+
+[SALE] Сьомга «Премія»® слабосолона шматок на шкірі (180г)
+  Category: SilpoLinks_fish
+  Old Price: 299.00 ₴
+  New Price: 199.00 ₴
+  Discount: - 33%
+  Valid Until: 
+
+[SALE] Форель слабосолена «Премія»®, нарізка (100г)
+  Category: SilpoLinks_fish
+  Old Price: 199.00 ₴
+  New Price: 159.20 ₴
+  Discount: - 20%
+  Valid Until: 
+
+[SALE] Палички крабові «Премія»® Сніжний краб охолоджені (250г)
+  Category: SilpoLinks_fish
+  Old Price: 154.00 ₴
+  New Price: 129.36 ₴
+  Discount: - 16%
+  Valid Until: 
+
+[SALE] Коктейль морский Norven для різотто і паельї свіжоморожений (500г)
+  Category: SilpoLinks_fish
+  Old Price: 229.00 ₴
+  New Price: 187.78 ₴
+  Discount: - 18%
+  Valid Until: 
+
+[SALE] Скумбрія свіжоморожена (100г)
+  Category: SilpoLinks_fish
+  Old Price: 24.90 ₴
+  New Price: 20.92 ₴
+  Discount: - 16%
+  Valid Until: 
+
+[SALE] Скумбрія без голови холодного копчення (100г)
+  Category: SilpoLinks_fish
+  Old Price: 59.90 ₴
+  New Price: 49.72 ₴
+  Discount: - 17%
+  Valid Until: 
+
+[SALE] Форель філе слабосолене, нарізка (100г)
+  Category: SilpoLinks_fish
+  Old Price: 179.00 ₴
+  New Price: 152.15 ₴
+  Discount: - 15%
+  Valid Until: 
+
+[SALE] Креветки «Премія»® глазуровані неочищені варено-морожені 70/90 (500г)
+  Category: SilpoLinks_fish
+  Old Price: 299.00 ₴
+  New Price: 224.25 ₴
+  Discount: - 25%
+  Valid Until: 
+
+[SALE] Креветки «Премія»® в панцирі глазуровані свіжоморожені 40/50 (1кг)
+  Category: SilpoLinks_fish
+  Old Price: 559.00 ₴
+  New Price: 357.76 ₴
+  Discount: - 36%
+  Valid Until: 
+
+[SALE] Паста Водний світ з ікри скандинавських риб зі шматочками лосося (160г)
+  Category: SilpoLinks_fish
+  Old Price: 69.49 ₴
+  New Price: 62.54 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Оселедець Norven Lofoten філе слабосолене без олії (180г)
+  Category: SilpoLinks_fish
+  Old Price: 97.99 ₴
+  New Price: 86.23 ₴
+  Discount: - 12%
+  Valid Until: 
+
+[SALE] Ікра тріски Veladis пробійна підкопчена з/б (100г)
+  Category: SilpoLinks_fish
+  Old Price: 64.99 ₴
+  New Price: 56.54 ₴
+  Discount: - 13%
+  Valid Until: 
+
+[SALE] Ікра минтая Veladis пробійна підкопчена з/б (100г)
+  Category: SilpoLinks_fish
+  Old Price: 99.00 ₴
+  New Price: 86.13 ₴
+  Discount: - 13%
+  Valid Until: 
+
+Палички крабові «Премія»® продукт із сурімі охолоджені (240г)
+  Category: SilpoLinks_fish
+  Price: 99.00 ₴
+
+[SALE] Палички крабові VICI заморожені (250г)
+  Category: SilpoLinks_fish
+  Old Price: 199.00 ₴
+  New Price: 169.15 ₴
+  Discount: - 15%
+  Valid Until: 
+
+[SALE] Крабові палички «Премія»® продукт з сурімі заморожені (100г)
+  Category: SilpoLinks_fish
+  Old Price: 40.19 ₴
+  New Price: 33.36 ₴
+  Discount: - 17%
+  Valid Until: 
+
+[SALE] Паста Водний світ з ікри скандинавських риб з копченою сьомгою (160г)
+  Category: SilpoLinks_fish
+  Old Price: 69.49 ₴
+  New Price: 62.54 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Ікра лососева «Шаланда» зерниста, з/б (100г)
+  Category: SilpoLinks_fish
+  Old Price: 539.00 ₴
+  New Price: 458.15 ₴
+  Discount: - 15%
+  Valid Until: 
+
+[SALE] Хек мерлуза гарячого копчення (100г)
+  Category: SilpoLinks_fish
+  Old Price: 25.40 ₴
+  New Price: 21.84 ₴
+  Discount: - 14%
+  Valid Until: 
+
+[SALE] Лосось хребти гарячого копчення (100г)
+  Category: SilpoLinks_fish
+  Old Price: 19.90 ₴
+  New Price: 16.92 ₴
+  Discount: - 15%
+  Valid Until: 
+
+Продукт «Премія»® з ікрою риби і лососем пастеризований (160г)
+  Category: SilpoLinks_fish
+  Price: 62.99 ₴
+
+[SALE] Сьомга Norven слабосолена нарізка в/у (120г)
+  Category: SilpoLinks_fish
+  Old Price: 299.00 ₴
+  New Price: 254.15 ₴
+  Discount: - 15%
+  Valid Until: 
+
+[SALE] Скумбрія без голови слобосолена (100г)
+  Category: SilpoLinks_fish
+  Old Price: 52.90 ₴
+  New Price: 43.38 ₴
+  Discount: - 18%
+  Valid Until: 
+
+[SALE] Капуста морська «Грінвіль» з морквою та селерою (250г)
+  Category: SilpoLinks_fish
+  Old Price: 72.99 ₴
+  New Price: 60.58 ₴
+  Discount: - 17%
+  Valid Until: 
+
+[SALE] Черевця лосося гарячого копчення (100г)
+  Category: SilpoLinks_fish
+  Old Price: 27.90 ₴
+  New Price: 23.44 ₴
+  Discount: - 16%
+  Valid Until: 
+
+[SALE] Оселедець Zigmas One Bite філе шматочками слабосолене з кропом в олії (210г)
+  Category: SilpoLinks_fish
+  Old Price: 126.00 ₴
+  New Price: 104.58 ₴
+  Discount: - 17%
+  Valid Until: 
+
+[SALE] Голови делікатесної риби патрані охолоджені (100г)
+  Category: SilpoLinks_fish
+  Old Price: 4.79 ₴
+  New Price: 3.98 ₴
+  Discount: - 17%
+  Valid Until: 
+
+[SALE] Мідії в олії зі спеціями (100г)
+  Category: SilpoLinks_fish
+  Old Price: 38.90 ₴
+  New Price: 32.68 ₴
+  Discount: - 16%
+  Valid Until: 
+
+[SALE] Крабові палички «Премія»® продукт з сурімі заморожені (500г)
+  Category: SilpoLinks_fish
+  Old Price: 149.00 ₴
+  New Price: 128.14 ₴
+  Discount: - 14%
+  Valid Until: 
+
+М'ясо мідій «Премія»® (250г)
+  Category: SilpoLinks_fish
+  Price: 129.00 ₴
+
+[SALE] Коктейль морський «Премія»® варено-морожений (250г)
+  Category: SilpoLinks_fish
+  Old Price: 174.00 ₴
+  New Price: 147.90 ₴
+  Discount: - 15%
+  Valid Until: 
+
+[SALE] Осетер холодного копчення, нарізка (60г)
+  Category: SilpoLinks_fish
+  Old Price: 149.00 ₴
+  New Price: 129.63 ₴
+  Discount: - 13%
+  Valid Until: 
+
+[SALE] Палички крабові Aqua Vita заморожені (200г)
+  Category: SilpoLinks_fish
+  Old Price: 59.99 ₴
+  New Price: 50.99 ₴
+  Discount: - 15%
+  Valid Until: 
+
+[SALE] Мідії у соусі «Чімічуррі» (100г)
+  Category: SilpoLinks_fish
+  Old Price: 35.90 ₴
+  New Price: 30.16 ₴
+  Discount: - 16%
+  Valid Until: 
+
+[SALE] Креветки Водний світ заморожені глазуровані 70/90 (800г)
+  Category: SilpoLinks_fish
+  Old Price: 299.00 ₴
+  New Price: 239.20 ₴
+  Discount: - 20%
+  Valid Until: 
+
+[SALE] Коктейль Nuchar морський (150г)
+  Category: SilpoLinks_fish
+  Old Price: 329.00 ₴
+  New Price: 276.36 ₴
+  Discount: - 16%
+  Valid Until: 
+
+[SALE] Ікра Veladis з сьомгою в соусі (160г)
+  Category: SilpoLinks_fish
+  Old Price: 99.00 ₴
+  New Price: 85.14 ₴
+  Discount: - 14%
+  Valid Until: 
+
+[SALE] Минтай Norven філе свіжоморожений без шкірки (600г)
+  Category: SilpoLinks_fish
+  Old Price: 249.00 ₴
+  New Price: 211.65 ₴
+  Discount: - 15%
+  Valid Until: 
+
+[SALE] Креветки Polar Seafood чищені без хвоста сирі 21/25 (250г)
+  Category: SilpoLinks_fish
+  Old Price: 349.00 ₴
+  New Price: 282.69 ₴
+  Discount: - 19%
+  Valid Until: 
+
+[SALE] Салака Iceberg глазурована свіжоморожена (0,7кг)
+  Category: SilpoLinks_fish
+  Old Price: 84.99 ₴
+  New Price: 69.69 ₴
+  Discount: - 18%
+  Valid Until: 
+
+[SALE] Ікра Ikroff нерки (275г)
+  Category: SilpoLinks_fish
+  Old Price: 999.00 ₴
+  New Price: 849.15 ₴
+  Discount: - 15%
+  Valid Until: 
+
+Котлета BeFoodie По-київськи з часником та травами (500г)
+  Category: SilpoLinks_halfmade
+  Price: 349.00 ₴
+
+[SALE] Пельмені «Левада» з м'ясом індички (400г)
   Category: SilpoLinks_halfmade
   Old Price: 114.00 ₴
   New Price: 54.99 ₴
-  Discount: 52%
+  Discount: - 52%
   Valid Until: 
 
-[SALE] Канелоні Alberto зі шпинатом
+[SALE] Вареники Три ведмеді з картоплею та вершками (800г)
   Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 259.00 ₴
-  Discount: 
+  Old Price: 149.00 ₴
+  New Price: 82.90 ₴
+  Discount: - 44%
   Valid Until: 
 
-[SALE] Пельмені Три ведмеді зі свининою та яловичиною
+[SALE] Пельмені Три ведмеді зі свининою та яловичиною (800г)
   Category: SilpoLinks_halfmade
   Old Price: 301.00 ₴
   New Price: 179.00 ₴
-  Discount: 41%
+  Discount: - 41%
   Valid Until: 
 
-[SALE] Вареники Три ведмеді з картоплею та вершками
-  Category: SilpoLinks_halfmade
-  Old Price: 149.00 ₴
-  New Price: 119.00 ₴
-  Discount: 20%
-  Valid Until: 
-
-[SALE] Вареники «Три ведмеді» з картоплею та беконом
+[SALE] Вареники «Три ведмеді» з картоплею та беконом (800г)
   Category: SilpoLinks_halfmade
   Old Price: 154.00 ₴
   New Price: 139.00 ₴
-  Discount: 10%
+  Discount: - 10%
   Valid Until: 
 
-[SALE] Пельмені Три ведмеді Мішутка з індичкою та вершками
+Пельмені Три ведмеді Мішутка з індичкою та вершками (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 168.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 168.00 ₴
 
-Млинці «Левада» з солодким сиром
+Млинці «Левада» з солодким сиром (310г)
   Category: SilpoLinks_halfmade
   Price: 63.49 ₴
 
-Млинці «Левада» з курячим м'ясом
+Млинці «Левада» з курячим м'ясом (310г)
   Category: SilpoLinks_halfmade
   Price: 67.49 ₴
 
-[SALE] Пельмені Три ведмеді Мішутка з м'ясом курчат
+Пельмені Три ведмеді Мішутка з м'ясом курчат (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 148.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 148.00 ₴
 
-[SALE] Пельмені Три ведмеді Мішутка з телятиною та вершками
+Пельмені Три ведмеді Мішутка з телятиною та вершками (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 168.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 168.00 ₴
 
-Круасани Schulstad
-  Category: SilpoLinks_halfmade
-  Price: 319.00 ₴
-
-[SALE] Пельмені «Три Ведмеді» «Фірмові»
+[SALE] Пельмені «Три Ведмеді» «Фірмові» (800г)
   Category: SilpoLinks_halfmade
   Old Price: 239.00 ₴
   New Price: 189.00 ₴
-  Discount: 21%
+  Discount: - 21%
   Valid Until: 
 
-[SALE] Вареники Три ведмеді Мішутка з картоплею та вершками
-  Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 80.00 ₴
-  Discount: 
-  Valid Until: 
-
-від 2 шт
+Картопля Aviko фрі зигзаг (450г)
   Category: SilpoLinks_halfmade
   Price: 99.00 ₴
 
-[SALE] Пельмені Levada Котигорошко
-  Category: SilpoLinks_halfmade
-  Old Price: 109.00 ₴
-  New Price: 69.90 ₴
-  Discount: 36%
-  Valid Until: 
-
-Сирники «Хуторок»
-  Category: SilpoLinks_halfmade
-  Price: 189.00 ₴
-
-[SALE] Чікен боли Ходорівський м'ясокомбінат заморожені
+[SALE] Чікен боли Ходорівський м'ясокомбінат заморожені (400г)
   Category: SilpoLinks_halfmade
   Old Price: 159.00 ₴
   New Price: 89.99 ₴
-  Discount: 43%
+  Discount: - 43%
   Valid Until: 
 
-[SALE] Пельмені Levada Кожум'яка
+Стріпси курячі Ходорівський м'ясокомбінат заморожені (390г)
+  Category: SilpoLinks_halfmade
+  Price: 199.00 ₴
+
+Вареники Три ведмеді Мішутка з картоплею та вершками (400г)
+  Category: SilpoLinks_halfmade
+  Price: 80.00 ₴
+
+[SALE] Нагетси Ходорівський м'ясокомбінат заморожені (390г)
+  Category: SilpoLinks_halfmade
+  Old Price: 122.00 ₴
+  New Price: 69.99 ₴
+  Discount: - 43%
+  Valid Until: 
+
+[SALE] Пельмені Levada Кожум'яка (600г)
   Category: SilpoLinks_halfmade
   Old Price: 109.00 ₴
   New Price: 69.90 ₴
-  Discount: 36%
+  Discount: - 36%
   Valid Until: 
 
-Стріпси курячі Ходорівський м'ясокомбінат заморожені
-  Category: SilpoLinks_halfmade
-  Price: 199.00 ₴
-
-[SALE] Ньоккі Voltan Pasta Fresca
-  Category: SilpoLinks_halfmade
-  Old Price: 83.49 ₴
-  New Price: 59.99 ₴
-  Discount: 28%
-  Valid Until: 
-
-Пельмені Ситий двір заморожені
-  Category: SilpoLinks_halfmade
-  Price: 128.00 ₴
-
-Нагетси Ходорівський м'ясокомбінат заморожені
-  Category: SilpoLinks_halfmade
-  Price: 122.00 ₴
-
-Котлети курячі Ходорівський м'ясокомбінат
+Сирники «Хуторок» (500г)
   Category: SilpoLinks_halfmade
   Price: 189.00 ₴
 
-[SALE] Круасан «Рудь» на вершковому маслі
+[SALE] Ньоккі Voltan Pasta Fresca (500г)
+  Category: SilpoLinks_halfmade
+  Old Price: 83.49 ₴
+  New Price: 59.99 ₴
+  Discount: - 28%
+  Valid Until: 
+
+[SALE] Пельмені Levada Котигорошко (600г)
+  Category: SilpoLinks_halfmade
+  Old Price: 109.00 ₴
+  New Price: 69.90 ₴
+  Discount: - 36%
+  Valid Until: 
+
+Котлети курячі Ходорівський м'ясокомбінат (480г)
+  Category: SilpoLinks_halfmade
+  Price: 189.00 ₴
+
+[SALE] Круасан «Рудь» на вершковому маслі (6*70г)
   Category: SilpoLinks_halfmade
   Old Price: 194.00 ₴
   New Price: 139.00 ₴
-  Discount: 28%
+  Discount: - 28%
   Valid Until: 
 
-[SALE] Вареники «Премія»® з вишнею
+Пельмені Ситий двір заморожені (800г)
+  Category: SilpoLinks_halfmade
+  Price: 128.00 ₴
+
+Пельмені Три ведмеді Мішутка Троє поросят зі свининою та м'ясом курки (400г)
+  Category: SilpoLinks_halfmade
+  Price: 155.00 ₴
+
+[SALE] Вареники «Премія»® з вишнею (400г)
   Category: SilpoLinks_halfmade
   Old Price: 134.00 ₴
   New Price: 94.99 ₴
-  Discount: 29%
+  Discount: - 29%
   Valid Until: 
 
-[SALE] Пельмені Три ведмеді Мішутка Троє поросят зі свининою та м'ясом курки
+Вареники «Три Ведмеді» з капустою (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 155.00 ₴
-  Discount: 
-  Valid Until: 
+  Price: 92.49 ₴
 
-Картопля Aviko діпи
-  Category: SilpoLinks_halfmade
-  Price: 149.00 ₴
-
-Пельмені Мама готувала зі свинини і яловичини
-  Category: SilpoLinks_halfmade
-  Price: 269.00 ₴
-
-Вареники Levada з капустою
-  Category: SilpoLinks_halfmade
-  Price: 54.99 ₴
-
-[SALE] Пельмені «Левада» з молодою яловичиною
+[SALE] Пельмені «Левада» з молодою яловичиною (0,4кг)
   Category: SilpoLinks_halfmade
   Old Price: 119.00 ₴
   New Price: 54.99 ₴
-  Discount: 54%
+  Discount: - 54%
   Valid Until: 
 
-Кільця цибулеві Aviko
+Деруни Aviko Pati Parts картопляні (600г)
   Category: SilpoLinks_halfmade
   Price: 159.00 ₴
 
-Деруни Aviko Pati Parts картопляні
-  Category: SilpoLinks_halfmade
-  Price: 159.00 ₴
-
-[SALE] Млинці Мама готувала з шинкою та моцарелою
+[SALE] Млинці Мама готувала з шинкою та моцарелою (600г)
   Category: SilpoLinks_halfmade
   Old Price: 369.00 ₴
   New Price: 279.00 ₴
-  Discount: 24%
+  Discount: - 24%
   Valid Until: 
 
-[SALE] Нагетси BeFoodie Преміум курячі швидкозаморожені
+[SALE] Нагетси BeFoodie Преміум курячі швидкозаморожені (500г)
   Category: SilpoLinks_halfmade
   Old Price: 449.00 ₴
-  New Price: 329.00 ₴
-  Discount: 27%
+  New Price: 249.00 ₴
+  Discount: - 45%
   Valid Until: 
 
-Вареники «Левада» з картоплею та грибами
+Пельмені Мама готувала зі свинини і яловичини (600г)
+  Category: SilpoLinks_halfmade
+  Price: 269.00 ₴
+
+Картопля Aviko діпи (600г)
+  Category: SilpoLinks_halfmade
+  Price: 149.00 ₴
+
+Кільця цибулеві Aviko (450г)
+  Category: SilpoLinks_halfmade
+  Price: 159.00 ₴
+
+Вареники «Левада» з картоплею та грибами (800г)
   Category: SilpoLinks_halfmade
   Price: 109.00 ₴
 
-[SALE] Пельмені Laska «Ма-ню-ням» з м'ясом курки та телятиною
-  Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 139.00 ₴
-  Discount: 
-  Valid Until: 
-
-[SALE] Тальятелле Pasta Fresca Voltan
-  Category: SilpoLinks_halfmade
-  Old Price: 99.00 ₴
-  New Price: 69.99 ₴
-  Discount: 29%
-  Valid Until: 
-
-[SALE] Вареники «Три Ведмеді» з капустою
-  Category: SilpoLinks_halfmade
-  Old Price: 400 ₴
-  New Price: 92.49 ₴
-  Discount: 
-  Valid Until: 
-
-[SALE] Тортеллоні Emma Giordany з рікотою та шпинатом
+[SALE] Тортеллоні Emma Giordany з рікотою та шпинатом (250г)
   Category: SilpoLinks_halfmade
   Old Price: 129.00 ₴
   New Price: 92.99 ₴
-  Discount: 28%
+  Discount: - 28%
   Valid Until: 
 
-[SALE] Вареники Laska з картоплею та смаженою цибулею
+[SALE] Тальятелле Pasta Fresca Voltan (250г)
   Category: SilpoLinks_halfmade
-  Old Price: 900 ₴
-  New Price: 149.00 ₴
-  Discount: 
+  Old Price: 99.00 ₴
+  New Price: 69.99 ₴
+  Discount: - 29%
   Valid Until: 
 
-[SALE] Гьодза Asian Xata з яловичиною та цибулею
+Пельмені Laska «Ма-ню-ням» з м'ясом курки та телятиною (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 800 ₴
-  New Price: 299.00 ₴
-  Discount: 
+  Price: 139.00 ₴
+
+Вареники Laska з картоплею та смаженою цибулею (900г)
+  Category: SilpoLinks_halfmade
+  Price: 149.00 ₴
+
+Вареники Levada з капустою (400г)
+  Category: SilpoLinks_halfmade
+  Price: 54.99 ₴
+
+[SALE] Гьодза Asian Xata з яловичиною та цибулею (800г)
+  Category: SilpoLinks_halfmade
+  Old Price: 299.00 ₴
+  New Price: 189.00 ₴
+  Discount: - 37%
   Valid Until: 
 
-Рис Garde Manger з морепродуктами
+Сирники Makey зі шпинатом солоні (300г)
   Category: SilpoLinks_halfmade
-  Price: 199.00 ₴
+  Price: 159.00 ₴
 
-[SALE] Тортеллоні Emma Giordany 4 сири
+Млинці Лавка традицій Старий Порицьк з солодким сиром (500г)
+  Category: SilpoLinks_halfmade
+  Price: 289.00 ₴
+
+Пельмені Рудь Супер (800г)
+  Category: SilpoLinks_halfmade
+  Price: 189.00 ₴
+
+Сирники Makey Premium смажені (300г)
+  Category: SilpoLinks_halfmade
+  Price: 154.00 ₴
+
+[SALE] Тортеллоні Emma Giordany 4 сири (250г)
   Category: SilpoLinks_halfmade
   Old Price: 129.00 ₴
   New Price: 104.00 ₴
-  Discount: 19%
+  Discount: - 19%
   Valid Until: 
 
-[SALE] Пельмені Рудь Супер
+Різото Garde Manger з грибами (400г)
   Category: SilpoLinks_halfmade
-  Old Price: 800 ₴
-  New Price: 189.00 ₴
-  Discount: 
+  Price: 99.00 ₴
+
+Рис Garde Manger з морепродуктами (400г)
+  Category: SilpoLinks_halfmade
+  Price: 199.00 ₴
+
+[SALE] Ковбаски PREMIA Чікенси для гриля та смаження (450г)
+  Category: SilpoLinks_meat
+  Old Price: 137.06 ₴
+  New Price: 123.35 ₴
+  Discount: - 10%
   Valid Until: 
 
-[SALE] Млинці Лавка традицій Старий Порицьк з солодким сиром
-  Category: SilpoLinks_halfmade
-  Old Price: 500 ₴
-  New Price: 289.00 ₴
-  Discount: 
+[SALE] Чевапчічі PREMIA Party line в беконі (380г)
+  Category: SilpoLinks_meat
+  Old Price: 139.00 ₴
+  New Price: 119.54 ₴
+  Discount: - 14%
   Valid Until: 
 
-Сирники Makey Premium смажені
-  Category: SilpoLinks_halfmade
-  Price: 154.00 ₴
+[SALE] Ковбаски гриль #ЦЕМ'ЯСО Баварські свинячі охолоджені г/у (500г)
+  Category: SilpoLinks_meat
+  Old Price: 134.00 ₴
+  New Price: 104.00 ₴
+  Discount: - 22%
+  Valid Until: 
+
+Фрикадельки індичі «Натурвіль» заморожені (300г)
+  Category: SilpoLinks_meat
+  Price: 62.49 ₴
+
+[SALE] Телячий ошийок охолоджений (100г)
+  Category: SilpoLinks_meat
+  Old Price: 37.70 ₴
+  New Price: 33.93 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Свинячий бекон нарізаний охолоджений в/у (100г)
+  Category: SilpoLinks_meat
+  Old Price: 33.90 ₴
+  New Price: 30.51 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Ковбаски для грилю та BBQ #ЦЕМ'ЯСО Easу cheesy з курки та свинини охолоджені г/у (500г)
+  Category: SilpoLinks_meat
+  Old Price: 169.00 ₴
+  New Price: 148.72 ₴
+  Discount: - 12%
+  Valid Until: 
+
+[SALE] Гамбургер «Натурвіль» з мяса індички без спецій заморожений (200г)
+  Category: SilpoLinks_meat
+  Old Price: 50.99 ₴
+  New Price: 44.87 ₴
+  Discount: - 12%
+  Valid Until: 
+
+Крильця курячі Снятинська птиця в маринаді з солодким чилі (100г)
+  Category: SilpoLinks_meat
+  Price: 14.40 ₴
+
+[SALE] Курячий шніцель з філе охолоджене (100г)
+  Category: SilpoLinks_meat
+  Old Price: 25.87 ₴
+  New Price: 23.28 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Свинячий стейк T-bone (100г)
+  Category: SilpoLinks_meat
+  Old Price: 30.68 ₴
+  New Price: 27.30 ₴
+  Discount: - 11%
+  Valid Until: 
+
+[SALE] Індиче філе охолоджене (100г)
+  Category: SilpoLinks_meat
+  Old Price: 35.87 ₴
+  New Price: 29.78 ₴
+  Discount: - 17%
+  Valid Until: 
+
+Теляча гомілка Оссобуко (100г)
+  Category: SilpoLinks_meat
+  Price: 30.31 ₴
+
+Яловичий стейк Ті-боун Dry Aged охолоджений в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 119.90 ₴
+
+Яловичий стейк Рібай Dry Aged охолоджений в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 189.90 ₴
+
+Стейк «Рібай» Dry Aged в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 189.90 ₴
+
+Телячий стейк Оссобуко охолоджений в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 32.31 ₴
+
+Стейк стріплойн Dry Aged в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 189.90 ₴
+
+Стейк «Ті Боун» Dry Aged в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 119.90 ₴
+
+Яловичина молода Ekro Striploin Wet Aged охолоджена в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 139.90 ₴
+
+Яловичина молода Ekro Ribeye Wet Aged охолоджена в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 139.90 ₴
+
+Стейк «Портерхаус» Dry Aged в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 149.90 ₴
+
+Яловичина молода Ekro Cowboy Wet Aged на кістці охолоджена в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 119.90 ₴
+
+Яловичий стейк охолоджений фасований (100г)
+  Category: SilpoLinks_meat
+  Price: 46.44 ₴
+
+Яловичина Ангус стейк Рібай охолоджений в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 389.90 ₴
+
+Яловичина молода Ekro Porterhouse Wet Aged охолоджена в/у (100г)
+  Category: SilpoLinks_meat
+  Price: 109.90 ₴
+
+[SALE] Яловичина молода Ekro T-bone Wet Aged охолоджена в/у (100г)
+  Category: SilpoLinks_meat
+  Old Price: 99.90 ₴
+  New Price: 89.91 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Свинячий окіст фасований 700-900 г охолоджений (100г)
+  Category: SilpoLinks_meat
+  Old Price: 23.59 ₴
+  New Price: 21.23 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Свинячий окіст без кістки (100г)
+  Category: SilpoLinks_meat
+  Old Price: 24.40 ₴
+  New Price: 21.96 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Яловичина, задня частина фасована 500-700 г охолоджена (100г)
+  Category: SilpoLinks_meat
+  Old Price: 37.50 ₴
+  New Price: 33.75 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Ковбаски для смаження Індичі (100г)
+  Category: SilpoLinks_meat
+  Old Price: 28.64 ₴
+  New Price: 25.77 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Телятина, шніцель (100г)
+  Category: SilpoLinks_meat
+  Old Price: 45.74 ₴
+  New Price: 38.88 ₴
+  Discount: - 15%
+  Valid Until: 
+
+[SALE] Ковбаски Фірмові курячі охолоджені фасовані (400г)
+  Category: SilpoLinks_meat
+  Old Price: 108.90 ₴
+  New Price: 94.74 ₴
+  Discount: - 13%
+  Valid Until: 
+
+[SALE] Сало свиняче фермерське копчене на сіні охолоджене (100г)
+  Category: SilpoLinks_meat
+  Old Price: 36.40 ₴
+  New Price: 32.76 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Котлети для бургерів з телятини зі смаком цибулі охолоджені (100г)
+  Category: SilpoLinks_meat
+  Old Price: 43.57 ₴
+  New Price: 38.78 ₴
+  Discount: - 11%
+  Valid Until: 
+
+[SALE] Свиняча рулька Mr.Grill «Чеська» заморожена (100г)
+  Category: SilpoLinks_meat
+  Old Price: 38.75 ₴
+  New Price: 34.87 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Сало бутербродне зі шкварками охолоджене (170г)
+  Category: SilpoLinks_meat
+  Old Price: 24.59 ₴
+  New Price: 19.92 ₴
+  Discount: - 19%
+  Valid Until: 
+
+[SALE] Гомілки курячі Снятинська птиця в апельсиновому маринаді (100г)
+  Category: SilpoLinks_meat
+  Old Price: 11.90 ₴
+  New Price: 10.35 ₴
+  Discount: - 13%
+  Valid Until: 
+
+[SALE] Індичі стріпси нарізні (100г)
+  Category: SilpoLinks_meat
+  Old Price: 34.98 ₴
+  New Price: 31.13 ₴
+  Discount: - 11%
+  Valid Until: 
+
+[SALE] Шашлик із свинини Соковитий напівфабрикат кулінарний (100г)
+  Category: SilpoLinks_meat
+  Old Price: 24.90 ₴
+  New Price: 22.41 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Свинячий стейк «Хвилинка» (100г)
+  Category: SilpoLinks_meat
+  Old Price: 28.55 ₴
+  New Price: 25.41 ₴
+  Discount: - 11%
+  Valid Until: 
+
+[SALE] Кролик, передні лапки свіжоморожені в/у (100г)
+  Category: SilpoLinks_meat
+  Old Price: 36.40 ₴
+  New Price: 32.76 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Телячий ошийок з кісткою (100г)
+  Category: SilpoLinks_meat
+  Old Price: 36.98 ₴
+  New Price: 33.28 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Бараняча задня частина з кісткою (100г)
+  Category: SilpoLinks_meat
+  Old Price: 37.90 ₴
+  New Price: 33.73 ₴
+  Discount: - 11%
+  Valid Until: 
+
+Ковбаски PREMIA Чізчікенси для гриля та смаження (450г)
+  Category: SilpoLinks_meat
+  Price: 152.25 ₴
+
+Ковбаски PREMIA Біфгрильки для гриля та смаження (450г)
+  Category: SilpoLinks_meat
+  Price: 137.06 ₴
+
+Філе куряче «Епікур» охолоджене, малий лоток (100г)
+  Category: SilpoLinks_meat
+  Price: 26.64 ₴
+
+[SALE] Куряче філе (100г)
+  Category: SilpoLinks_meat
+  Old Price: 22.59 ₴
+  New Price: 20.40 ₴
+  Discount: - 10%
+  Valid Until: 
+
+Куряче стегно (100г)
+  Category: SilpoLinks_meat
+  Price: 16.38 ₴
+
+Курячий фарш із філе подрібнений (100г)
+  Category: SilpoLinks_meat
+  Price: 25.56 ₴
+
+Куряча гомілка (100г)
+  Category: SilpoLinks_meat
+  Price: 10.55 ₴
+
+Печінка куряча охолоджена (100г)
+  Category: SilpoLinks_meat
+  Price: 12.90 ₴
+
+Філе стегна курчат-бройлерів Епікур охолоджене, малий лоток (100г)
+  Category: SilpoLinks_meat
+  Price: 28.34 ₴
+
+Свинячий биток без кістки охолоджений (100г)
+  Category: SilpoLinks_meat
+  Price: 32.90 ₴
+
+Стегно куряче Епікур охолоджене, малий лоток (100г)
+  Category: SilpoLinks_meat
+  Price: 22.47 ₴
+
+[SALE] Гомілка куряча Епікур охолоджена, малий лоток (100г)
+  Category: SilpoLinks_meat
+  Old Price: 14.90 ₴
+  New Price: 12.40 ₴
+  Discount: - 17%
+  Valid Until: 
+
+Крило куряче Епікур охолоджене, малий лоток (100г)
+  Category: SilpoLinks_meat
+  Price: 16.85 ₴
+
+Серце куряче охолоджене (100г)
+  Category: SilpoLinks_meat
+  Price: 12.90 ₴
+
+[SALE] Фарш свинячий (100г)
+  Category: SilpoLinks_meat
+  Old Price: 20.90 ₴
+  New Price: 18.90 ₴
+  Discount: - 10%
+  Valid Until: 
+
+[SALE] Індиче стегно охолоджене (100г)
+  Category: SilpoLinks_meat
+  Old Price: 25.90 ₴
+  New Price: 22.90 ₴
+  Discount: - 12%
+  Valid Until: 
+
+[SALE] Свиняча лопатка без кістки охолоджена (100г)
+  Category: SilpoLinks_meat
+  Old Price: 22.99 ₴
+  New Price: 19.90 ₴
+  Discount: - 13%
+  Valid Until: 
+
+Куряче крило (100г)
+  Category: SilpoLinks_meat
+  Price: 12.54 ₴
 
